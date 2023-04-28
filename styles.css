@@ -15,6 +15,10 @@
   font-family: "Roboto", "Crete Round", "Poppins", sans-serif;
 }
 
+body {
+  min-width: 375px;
+}
+
 #toolbar {
   display: flex;
   position: fixed;
@@ -67,6 +71,7 @@
 .text_content {
   font-family: "Poppins", sans-serif;
   color: var(--white);
+  text-align: left;
 }
 
 #icon_container {
