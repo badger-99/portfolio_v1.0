@@ -52,11 +52,16 @@
 .heading {
   font-family: "Crete Round";
   color: var(--accentColor2);
+  font-size: 3.5rem;
+  font-weight: 400;
 }
 
 .subheading {
   font-family: "Roboto";
   color: var(--accentColor1);
+  font-size: 1.5rem;
+  /* font-weight: 700; */
+  font-style: normal;
 }
 
 .text_content {
