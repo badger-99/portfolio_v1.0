@@ -14,3 +14,68 @@
   font-family: 'Roboto','Crete Round','Poppins', sans-serif;
 }
 
+#toolbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  background-color: var(--headColor);
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;  
+}
+
+#logo {
+  color: var(--white);
+  font: 'Roboto';
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+#menu {
+  color: var(--white);
+}
+
+#front_page {
+  background-color: var(--mainColor);
+  padding: 10.375rem 1.5rem 0 1.5rem;
+  background-image: url(./images/illustration-header-mobile.svg);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 119%;
+  height: 100vh;
+}
+
+.headline {
+  margin-bottom: 0.75rem;
+}
+
+.heading {
+  font: 'Crete Round';
+  color: var(--accentColor2);
+}
+
+.subheading {
+  font: 'Roboto';
+  color: var(--accentColor1);
+}
+
+.text_content {
+  font: 'Poppins';
+  color: var(--white);
+}
+
+#icon_container {
+  display: inline-block;
+}
+
+#social_icons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: var(--iconColor);
+  /* margin-bottom: 14.6rem; */
+}
+
+#social_icons> li{
+  padding: 0.625rem 0.688rem;
+}
