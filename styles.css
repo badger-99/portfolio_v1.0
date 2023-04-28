@@ -32,6 +32,11 @@
   font-weight: 700;
 }
 
+.link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 #menu {
   color: var(--white);
 }
