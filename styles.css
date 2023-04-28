@@ -15,10 +15,6 @@
   font-family: "Roboto", "Crete Round", "Poppins", sans-serif;
 }
 
-body {
-  min-width: 375px;
-}
-
 #toolbar {
   display: flex;
   position: fixed;
@@ -43,7 +39,7 @@ body {
 #headline {
   background-color: var(--mainColor);
   padding: 7.5rem 1.5rem 0 1.5rem;
-  background-image: url(./images/illustration-header-mobile.svg);
+  background-image: url(./images/background.svg);
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 119%;
