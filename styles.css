@@ -10,7 +10,8 @@
   --accentColor1: #fff5e1;
   --accentColor2: #ff6b00;
   --iconColor: #dbd8d7;
-  --white: #ffffff;
+  --white: #fff;
+
   font-family: "Roboto", "Crete Round", "Poppins", sans-serif;
 }
 
@@ -26,7 +27,7 @@
 
 #logo {
   color: var(--white);
-  font: "Roboto";
+  font: "Roboto", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -50,22 +51,21 @@
 }
 
 .heading {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   color: var(--accentColor2);
   font-size: 3.5rem;
   font-weight: 400;
 }
 
 .subheading {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: var(--accentColor1);
   font-size: 1.5rem;
-  /* font-weight: 700; */
   font-style: normal;
 }
 
 .text_content {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   color: var(--white);
 }
 
@@ -78,7 +78,6 @@
   display: flex;
   align-items: center;
   color: var(--iconColor);
-  /* margin-bottom: 14.6rem; */
 }
 
 #social_icons > li {
