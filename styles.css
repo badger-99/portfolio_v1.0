@@ -36,7 +36,7 @@
   color: var(--white);
 }
 
-#front_page {
+#headline {
   background-color: var(--mainColor);
   padding: 7.5rem 1.5rem 0 1.5rem;
   background-image: url(./images/illustration-header-mobile.svg);
