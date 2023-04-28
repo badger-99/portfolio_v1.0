@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-:root{
-  --headColor:#3C3A39;
-  --mainColor:#1C1A19;
-  --accentColor1:#FFF5E1;
-  --accentColor2:#FF6B00;
-  --iconColor:#DBD8D7;
-  --white:#FFFFFF;
-  font-family: 'Roboto','Crete Round','Poppins', sans-serif;
+:root {
+  --headColor: #3c3a39;
+  --mainColor: #1c1a19;
+  --accentColor1: #fff5e1;
+  --accentColor2: #ff6b00;
+  --iconColor: #dbd8d7;
+  --white: #ffffff;
+  font-family: "Roboto", "Crete Round", "Poppins", sans-serif;
 }
 
 #toolbar {
