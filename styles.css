@@ -43,7 +43,7 @@
 
 #headline {
   background-color: var(--mainColor);
-  padding: 7.5rem 1.5rem 0 1.5rem;
+  padding: 10.5rem 0.75rem 0 0.75rem;
   background-image: url(./images/background.svg);
   background-repeat: no-repeat;
   background-position-x: 100%;
@@ -54,6 +54,7 @@
 }
 
 .hero {
+  padding: 0 0.75rem 0 0.75rem;
   margin-bottom: 0.75rem;
   text-align: left;
 }
@@ -90,5 +91,5 @@
 }
 
 #social_icons > li {
-  padding: 0.625rem 0.688rem;
+  padding: 0.625rem 0.625rem;
 }
