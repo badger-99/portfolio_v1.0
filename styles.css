@@ -49,6 +49,8 @@
   background-position-x: 100%;
   background-position-y: 115%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero {
