@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --headColor: #3c3a39;
+  --mainColor: #1c1a19;
+  --accentColor1: #fff5e1;
+  --accentColor2: #ff6b00;
+  --iconColor: #dbd8d7;
+  --white: #fff;
+
+  font-family: "Roboto", "Crete Round", "Poppins", sans-serif;
+}
+
+#toolbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  background-color: var(--headColor);
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+}
+
+#logo {
+  color: var(--white);
+  font: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+#menu {
+  color: var(--white);
+}
+
+#headline {
+  background-color: var(--mainColor);
+  padding: 10.5rem 0.75rem 0 0.75rem;
+  background-image: url(./images/background.svg);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 115%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  padding: 0 0.75rem 0 0.75rem;
+  margin-bottom: 0.75rem;
+  text-align: left;
+}
+
+.heading {
+  font-family: "Crete Round", sans-serif;
+  color: var(--accentColor2);
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.subheading {
+  font-family: "Roboto", sans-serif;
+  color: var(--accentColor1);
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+.text_content {
+  font-family: "Poppins", sans-serif;
+  color: var(--white);
+  text-align: left;
+}
+
+#icon_container {
+  display: inline-block;
+}
+
+#social_icons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: var(--iconColor);
+}
+
+#social_icons > li {
+  padding: 0.625rem 0.625rem;
+}
