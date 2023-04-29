@@ -223,11 +223,43 @@
   font-size: 1rem;
 }
 
-#resume_link {
-  margin-bottom: ;
-}
-
 #separator {
   border: 1px solid #FFFFFF;
   margin: 13.063rem 1.5rem 0 1.5rem;
+}
+
+#abilities {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 1.438rem 2.346rem 1.438rem;
+}
+
+.skill_list {
+  list-style: none;
+  text-align: center;
+}
+
+.skill_list > li {
+  padding: 0.75rem 0;
+}
+
+.skill_title{
+  padding: 0.5rem 0.75rem;
+}
+
+.bullet {
+  margin-right: 0.75rem;
+}
+
+#languages {
+  padding: 0 3.236rem 1.5rem 3.236rem;
+}
+
+#frameworks {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+#skills{
+  padding: 0 1.938rem 2.375rem 1.938rem;
 }
