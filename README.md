@@ -100,9 +100,9 @@ You can deploy this project by using VS-code and injecting it to a browser throu
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[a showcse of my projects]**
 - [ ] **[incorporating responsiveness into the webpage]**
 - [ ] **[contact forms]**
+- [ ] **[a desktop version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
