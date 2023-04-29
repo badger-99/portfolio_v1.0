@@ -12,7 +12,7 @@
   --hoverEnabled: #f55800;
   --hoverPressed: #e05304;
   --hoverDisabled: #f4f1f0;
-  --hoverDisabledText: #5B5957;
+  --hoverDisabledText: #5b5957;
   --iconColor: #dbd8d7;
   --fontColor1: #091e42;
   --fontColor2: #f4f5f7;
@@ -175,13 +175,13 @@
 }
 
 .btn:active {
-background: var(--hoverPressed);
-color: var(--hoverDisabled);
+  background: var(--hoverPressed);
+  color: var(--hoverDisabled);
 }
 
 .btn:disabled {
-background: var(--hoverDisabled);
-color: var(--hoverDisabledText);
+  background: var(--hoverDisabled);
+  color: var(--hoverDisabledText);
 }
 
 #projects_grid {
