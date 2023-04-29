@@ -135,3 +135,20 @@
   margin-bottom: 1.5rem;
   flex: none;
 }
+
+#featured_project>ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.tech {
+  border: 1px solid #8993A4;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #091E42;
+  font-size: 0.938rem;
+  padding: 0.625rem 0.75rem;
+  margin-right: 0.75rem;
+}
