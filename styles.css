@@ -152,18 +152,49 @@
   margin-right: 0.75rem;
 }
 
-#featured_project > span > a {
+.btn {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 1.063rem;
   color: var(--white);
   padding: 0.75rem;
   background: var(--accentColor2);
+  text-align: center;
 }
 
-#projects {
+#projects_grid {
   margin: 0 1.5rem;
   display: grid;
   gap: 1.5rem 0;
   grid-template-columns: auto;
+  color: var(--white);
+}
+
+.grid_card{
+  background-image: url(./images/work_card.svg);
+  display: flex;
+  flex-direction: column;
+}
+
+.card_title{
+  font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 4.5rem 0.813rem 0 0.813rem;
+}
+
+.card_text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0.75rem 0.813rem 0 0.813rem;
+}
+
+.card_list {
+  margin: 0.75rem 0 1.375rem 0.813rem;
+}
+
+.card_link {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.24);
 }
