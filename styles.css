@@ -170,13 +170,13 @@
   color: var(--white);
 }
 
-.grid_card{
+.grid_card {
   background-image: url(./images/work_card.svg);
   display: flex;
   flex-direction: column;
 }
 
-.card_title{
+.card_title {
   font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -205,7 +205,7 @@
 }
 
 #info {
-  padding:7.5rem 1.5rem 0 1.5rem ;
+  padding: 7.5rem 1.5rem 0 1.5rem ;
   margin-top: 7.5rem;
   background-image: url(./images/about_me.svg);
   background-repeat: no-repeat;
@@ -228,7 +228,7 @@
 }
 
 #separator {
-  border: 1px solid #FFFFFF;
+  border: 1px solid var(--white);
   margin: 13.063rem 1.5rem 0 1.5rem;
 }
 
@@ -246,14 +246,14 @@
   text-align: center;
 }
 
-.skill_list > li {
+.skill_name {
   padding: 0.75rem 0;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1.167rem;
 }
 
-.skill_title{
+.skill_title {
   padding: 0.5rem 0.75rem;
   font-size: 2rem;
 }
@@ -276,6 +276,6 @@
   padding: 0 1.5rem 1.5rem 1.5rem;
 }
 
-#skills{
+#skills {
   padding: 0 1.938rem 2.375rem 1.938rem;
 }
