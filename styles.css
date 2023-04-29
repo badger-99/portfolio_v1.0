@@ -223,6 +223,10 @@
   font-size: 1rem;
 }
 
+#resume_link {
+  padding-top: 0.5rem;
+}
+
 #separator {
   border: 1px solid #FFFFFF;
   margin: 13.063rem 1.5rem 0 1.5rem;
