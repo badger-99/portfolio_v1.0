@@ -232,6 +232,8 @@
   color: var(--white);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 8rem 1.438rem 2.346rem 1.438rem;
 }
 
@@ -242,14 +244,24 @@
 
 .skill_list > li {
   padding: 0.75rem 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.167rem;
 }
 
 .skill_title{
   padding: 0.5rem 0.75rem;
+  font-size: 2rem;
 }
 
-.bullet {
-  margin-right: 0.75rem;
+.about_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#diamond {
+  transform: rotate(-45deg);
 }
 
 #languages {
