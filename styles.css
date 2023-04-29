@@ -118,3 +118,11 @@
 #feat_img {
   margin-bottom: 1.5rem;
 }
+
+#featured_project>h3 {
+  color: #091E42;
+  font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
