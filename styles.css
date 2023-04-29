@@ -207,6 +207,9 @@
 #info {
   padding:7.5rem 1.5rem 0 1.5rem ;
   margin-top: 7.5rem;
+  background-image: url(./images/about_me.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 97.5%;
 }
 
 #about_title {
