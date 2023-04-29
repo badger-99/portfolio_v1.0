@@ -12,7 +12,7 @@
   --iconColor: #dbd8d7;
   --white: #fff;
 
-  font-family: "Roboto", "Crete Round", "Poppins", sans-serif;
+  font-family: "Roboto", "Crete Round", "Poppins",'Inter', sans-serif;
 }
 
 #toolbar {
@@ -125,4 +125,13 @@
   font-weight: 400;
   font-size: 2rem;
   margin-bottom: 1.5rem;
+}
+
+#featured_project>p {
+  color: #091E42;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  flex: none;
 }
