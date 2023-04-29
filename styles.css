@@ -9,10 +9,17 @@
   --mainColor: #1c1a19;
   --accentColor1: #fff5e1;
   --accentColor2: #ff6b00;
+  --hoverEnabled: #f55800;
+  --hoverPressed: #e05304;
+  --hoverDisabled: #f4f1f0;
+  --hoverDisabledText: #5b5957;
   --iconColor: #dbd8d7;
+  --fontColor1: #091e42;
+  --fontColor2: #f4f5f7;
+  --borderColor1: #8993a4;
   --white: #fff;
 
-  font-family: "Roboto", "Crete Round", "Poppins", sans-serif;
+  font-family: "Roboto", "Crete Round", "Poppins", "Inter", sans-serif;
 }
 
 #toolbar {
@@ -54,16 +61,16 @@
 }
 
 .hero {
-  padding: 0 0.75rem 0 0.75rem;
-  margin-bottom: 0.75rem;
-  text-align: left;
+  font-family: "Crete Round", sans-serif;
+  color: var(--accentColor2);
+  font-weight: 400;
 }
 
 .heading {
-  font-family: "Crete Round", sans-serif;
-  color: var(--accentColor2);
+  padding: 0 0.75rem 0 0.75rem;
+  margin-bottom: 0.75rem;
+  text-align: left;
   font-size: 3.5rem;
-  font-weight: 400;
 }
 
 .subheading {
@@ -92,4 +99,204 @@
 
 #social_icons > li {
   padding: 0.625rem 0.625rem;
+}
+
+.title {
+  margin: 7.5rem 1.5rem 0 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #212121;
+  text-align: center;
+}
+
+#work_title {
+  font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: var(--mainColor);
+}
+
+#featured_project {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+}
+
+.btm_margin {
+  margin-bottom: 1.5rem;
+}
+
+#featured_project > h3 {
+  color: var(--fontColor1);
+  font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+#featured_project > p {
+  color: var(--fontColor1);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  flex: none;
+}
+
+.tech_stack {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.tech {
+  border: 1px solid var(--borderColor1);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: var(--fontColor1);
+  font-size: 0.938rem;
+  padding: 0.625rem 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.063rem;
+  color: var(--white);
+  padding: 0.75rem;
+  background: var(--hoverEnabled);
+  text-align: center;
+}
+
+.btn:hover {
+  border: 1px solid var(--hoverEnabled);
+  background: var(--accentColor1);
+  color: var(--hoverEnabled);
+  transition-duration: 0.5s;
+}
+
+.btn:active {
+  background: var(--hoverPressed);
+  color: var(--hoverDisabled);
+}
+
+.btn:disabled {
+  background: var(--hoverDisabled);
+  color: var(--hoverDisabledText);
+}
+
+#projects_grid {
+  margin: 0 1.5rem;
+  display: grid;
+  grid-template-columns: auto;
+  color: var(--white);
+}
+
+.grid_card {
+  background-image: url(./images/work_card.svg);
+  display: flex;
+  flex-direction: column;
+}
+
+.card_title {
+  font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 4.5rem 0.813rem 0 0.813rem;
+}
+
+.card_text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0.75rem 0.813rem 0 0.813rem;
+}
+
+.card_list {
+  margin: 0.75rem 0 1.375rem 0.813rem;
+}
+
+.card_link {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.about_me {
+  background-color: var(--mainColor);
+  padding: 0 1.5rem;
+}
+
+#info {
+  padding: 7.5rem 1.5rem 0 1.5rem;
+  margin-top: 7.5rem;
+  background-image: url(./images/about_me.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 97.5%;
+}
+
+#about_title {
+  font-size: 4.5rem;
+}
+
+#about_text {
+  color: var(--fontColor2);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#resume_link {
+  padding-top: 0.5rem;
+}
+
+#separator {
+  border: 1px solid var(--white);
+  margin: 13.063rem 1.5rem 0 1.5rem;
+}
+
+#abilities {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 1.438rem 2.346rem 1.438rem;
+}
+
+.skill_list {
+  list-style: none;
+  text-align: center;
+}
+
+.skill_name {
+  padding: 0.75rem 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.167rem;
+}
+
+.skill_title {
+  padding: 0.5rem 0.75rem;
+  font-size: 2rem;
+}
+
+.about_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#diamond {
+  transform: rotate(-45deg);
+}
+
+#languages {
+  padding: 0 3.236rem 1.5rem 3.236rem;
+}
+
+#frameworks {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+#skills {
+  padding: 0 1.938rem 2.375rem 1.938rem;
 }
