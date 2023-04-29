@@ -136,7 +136,7 @@
   flex: none;
 }
 
-#featured_project > ul {
+.tech_stack {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -159,4 +159,11 @@
   color: var(--white);
   padding: 0.75rem;
   background: var(--accentColor2);
+}
+
+#projects {
+  margin: 0 1.5rem;
+  display: grid;
+  gap: 1.5rem 0;
+  grid-template-columns: auto;
 }
