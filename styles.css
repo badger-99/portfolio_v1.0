@@ -10,9 +10,11 @@
   --accentColor1: #fff5e1;
   --accentColor2: #ff6b00;
   --iconColor: #dbd8d7;
+  --fontColor1: #091e42;
+  --borderColor1:#8993a4;
   --white: #fff;
 
-  font-family: "Roboto", "Crete Round", "Poppins",'Inter', sans-serif;
+  font-family: "Roboto", "Crete Round", "Poppins", "Inter", sans-serif;
 }
 
 #toolbar {
@@ -101,7 +103,7 @@
   text-align: center;
 }
 
-#work_title{
+#work_title {
   font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
@@ -119,38 +121,38 @@
   margin-bottom: 1.5rem;
 }
 
-#featured_project>h3 {
-  color: #091E42;
+#featured_project > h3 {
+  color: var(--fontColor1);
   font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 2rem;
 }
 
-#featured_project>p {
-  color: #091E42;
+#featured_project > p {
+  color: var(--fontColor1);
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   flex: none;
 }
 
-#featured_project>ul {
+#featured_project > ul {
   display: flex;
   flex-direction: row;
   list-style: none;
 }
 
 .tech {
-  border: 1px solid #8993A4;
+  border: 1px solid var(--borderColor1);
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  color: #091E42;
+  color: var(--fontColor1);
   font-size: 0.938rem;
   padding: 0.625rem 0.75rem;
   margin-right: 0.75rem;
 }
 
-#featured_project>span>a {
+#featured_project > span > a {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 1.063rem;
