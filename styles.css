@@ -165,7 +165,6 @@
 #projects_grid {
   margin: 0 1.5rem;
   display: grid;
-  gap: 1.5rem 0;
   grid-template-columns: auto;
   color: var(--white);
 }
