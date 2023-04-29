@@ -107,3 +107,14 @@
   font-size: 2.5rem;
   color: var(--mainColor);
 }
+
+#featured_project {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+}
+
+#feat_img {
+  margin-bottom: 1.5rem;
+}
