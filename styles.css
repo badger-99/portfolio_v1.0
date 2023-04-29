@@ -11,6 +11,7 @@
   --accentColor2: #ff6b00;
   --iconColor: #dbd8d7;
   --fontColor1: #091e42;
+  --fontColor2: #f4f5f7;
   --borderColor1: #8993a4;
   --white: #fff;
 
@@ -56,16 +57,16 @@
 }
 
 .hero {
-  padding: 0 0.75rem 0 0.75rem;
-  margin-bottom: 0.75rem;
-  text-align: left;
+  font-family: "Crete Round", sans-serif;
+  color: var(--accentColor2);
+  font-weight: 400;
 }
 
 .heading {
-  font-family: "Crete Round", sans-serif;
-  color: var(--accentColor2);
+  padding: 0 0.75rem 0 0.75rem;
+  margin-bottom: 0.75rem;
+  text-align: left;
   font-size: 3.5rem;
-  font-weight: 400;
 }
 
 .subheading {
@@ -196,4 +197,34 @@
 .card_link {
   color: var(--white);
   background: rgba(255, 255, 255, 0.24);
+}
+
+.about_me {
+  background-color: var(--mainColor);
+  padding: 0 1.5rem;
+}
+
+#info {
+  padding:7.5rem 1.5rem 0 1.5rem ;
+  margin-top: 7.5rem;
+}
+
+#about_title {
+  font-size: 4.5rem;
+}
+
+#about_text {
+  color: var(--fontColor2);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#resume_link {
+  margin-bottom: ;
+}
+
+#separator {
+  border: 1px solid #FFFFFF;
+  margin: 13.063rem 1.5rem 0 1.5rem;
 }
