@@ -354,3 +354,25 @@
   align-self: center;
   cursor: pointer;
 }
+
+
+#foot-section {
+  border-top: solid 0.0633rem #dfe1e6;
+  padding: 1rem auto 0 auto;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3.313rem;
+}
+
+hr {
+  margin-bottom: 0.688rem;
+  height: 0.313rem;
+  width: 8.375rem;
+  background: #0D151E;
+  border-radius: 0.625rem;
+  margin: 0 auto;
+}
