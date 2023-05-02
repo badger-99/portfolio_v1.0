@@ -314,7 +314,7 @@
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 #contact-form {
@@ -336,7 +336,8 @@
   border: none;
 }
 
-#name, #email {
+#name, 
+#email {
   border-bottom: solid 0.063rem #d8d8d7;
   padding: 0.938rem 1rem;
 }
@@ -355,7 +356,6 @@
   cursor: pointer;
 }
 
-
 #foot-section {
   border-top: solid 0.0633rem #dfe1e6;
   padding: 1rem auto 0 auto;
@@ -369,10 +369,9 @@
 }
 
 hr {
-  margin-bottom: 0.688rem;
   height: 0.313rem;
   width: 8.375rem;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 0.625rem;
-  margin: 0 auto;
+  margin: 0 auto 0.688rem auto;
 }
