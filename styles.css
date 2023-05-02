@@ -86,18 +86,17 @@
   text-align: left;
 }
 
-#icon_container {
+.icon_container {
   display: inline-block;
 }
 
-#social_icons {
+.social_icons {
   list-style: none;
   display: flex;
   align-items: center;
-  color: var(--iconColor);
 }
 
-#social_icons > li {
+.social_icons > li {
   padding: 0.625rem 0.625rem;
 }
 
