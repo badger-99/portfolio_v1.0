@@ -336,8 +336,7 @@
   border: none;
 }
 
-#name, 
-#email {
+.form-input {
   border-bottom: solid 0.063rem #d8d8d7;
   padding: 0.938rem 1rem;
 }
