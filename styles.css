@@ -299,3 +299,58 @@
 #skills {
   padding: 0 1.938rem 2.375rem 1.938rem;
 }
+
+#contact {
+  padding: 4.313rem 1.438rem 0 1.438rem;
+  margin-bottom: 4.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#contact-title {
+  text-align: center;
+  margin-bottom: 3.625rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #172B4D;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#contact-form::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.938rem;
+  color: #979493;
+}
+
+.form-elm {
+  width: 100%;
+  border: none;
+}
+
+#name, #email {
+  border-bottom: solid 0.063rem #d8d8d7;
+  padding: 0.938rem 1rem;
+}
+
+#txt-area {
+  background: #fbf8f7;
+  padding: 0.75rem;
+}
+
+#txt-area::placeholder {
+  font-style: italic;
+}
+
+#submit-btn {
+  align-self: center;
+  cursor: pointer;
+}
