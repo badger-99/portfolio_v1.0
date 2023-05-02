@@ -306,11 +306,11 @@
       I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
     </h2>
 
-    <form action="https://formspree.io/f/xgebdkkr" method="post">
-      <input type="text" maxlength="30" placeholder="Full name" name="name" required>
-      <input type="email" placeholder="Email address" name="email" required>
-      <textarea name="message" cols="30" rows="10" maxlength="500">Write me something...</textarea>
-      <button class="btn" type="submit">Get in touch</button>
+    <form id="contact-form" action="https://formspree.io/f/xgebdkkr" method="post">
+      <input class="form-elm" id="name" type="text" maxlength="30" placeholder="Full name" name="name" required>
+      <input class="form-elm" id="email" type="email" placeholder="Email address" name="email" required>
+      <textarea class="form-elm" id="txt-area" name="message" cols="30" rows="10" maxlength="500" placeholder="Write me something..."></textarea>
+      <button id="submit-btn" class="btn" type="submit">Get in touch</button>
     </form>
   </section>
   </main>
