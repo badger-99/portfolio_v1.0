@@ -331,3 +331,27 @@
   font-size: 0.938rem;
   color: #979493;
 }
+.form-elm {
+  width: 100%;
+  border: none;
+}
+
+.form-input {
+  border-bottom: solid 0.063rem #d8d8d7;
+  padding: 0.938rem 1rem;
+}
+
+#txt-area {
+  background: #fbf8f7;
+  padding: 0.75rem;
+}
+
+#txt-area::placeholder {
+  font-style: italic;
+}
+
+#submit-btn {
+  align-self: center;
+  cursor: pointer;
+}
+
