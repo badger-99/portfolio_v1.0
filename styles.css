@@ -317,3 +317,17 @@
   font-size: 2rem;
   color: #172b4d;
 }
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#contact-form::placeholder {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.938rem;
+  color: #979493;
+}
