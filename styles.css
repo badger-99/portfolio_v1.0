@@ -134,7 +134,7 @@
 
 #featured_project > p {
   color: var(--fontColor1);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   flex: none;
@@ -148,7 +148,7 @@
 
 .tech {
   border: 1px solid var(--borderColor1);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   color: var(--fontColor1);
   font-size: 0.938rem;
@@ -157,7 +157,7 @@
 }
 
 .btn {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.063rem;
   color: var(--white);
@@ -204,7 +204,7 @@
 }
 
 .card_text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   margin: 0.75rem 0.813rem 0 0.813rem;
@@ -238,7 +238,7 @@
 
 #about_text {
   color: var(--fontColor2);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
@@ -268,7 +268,7 @@
 
 .skill_name {
   padding: 0.75rem 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.167rem;
 }
