@@ -309,3 +309,11 @@
   justify-content: flex-start;
 }
 
+#contact-title {
+  text-align: center;
+  margin-bottom: 3.625rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #172b4d;
+}
