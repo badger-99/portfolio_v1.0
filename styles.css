@@ -367,3 +367,11 @@
   justify-content: center;
   padding-bottom: 3.313rem;
 }
+
+hr {
+  height: 0.313rem;
+  width: 8.375rem;
+  background: #0d151e;
+  border-radius: 0.625rem;
+  margin: 0 auto 0.688rem auto;
+}
