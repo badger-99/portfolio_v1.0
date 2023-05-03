@@ -107,8 +107,6 @@
 
 .title {
   margin: 7.5rem 1.5rem 0 1.5rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #212121;
   text-align: center;
 }
 
@@ -117,6 +115,11 @@
   font-weight: 400;
   font-size: 2.5rem;
   color: var(--mainColor);
+}
+
+#divider {
+  border-bottom: solid 1px #212121;
+  padding-top: 1.65rem;
 }
 
 #featured_project {
@@ -393,6 +396,8 @@ hr {
     position: static;    
   }
 
+
+  /* Header */
   #toolbar {
     align-items: center;
   }
@@ -427,13 +432,13 @@ hr {
     padding: 0.25rem 0.563rem;
   }
 
+  /* Hero Page */
   #headline {
     padding: 12rem 0.75rem 0 0rem;
     background-image: url(./images/desktop-hero-background.svg);
     background-position-x: 100%;
     background-position-y: 0%;
     background-size: 40%;
-    /* height: 100vh; */
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -465,4 +470,27 @@ hr {
     align-items: center;
   }
   
+  /* Projects */
+  .title {
+    margin: 7.5rem 7.375rem 0 7.375rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    /* padding: 0 7.375rem; */
+    align-items: center;
+  }
+
+  #work_title {
+    margin-right: 1.5rem;
+    font-size: 2.5rem;
+    color: #091E42;
+    white-space: nowrap;
+  }
+  
+  #divider {
+    border-bottom: solid 1px #212121;
+    padding:0;
+    margin: 0;
+    width:100%;
+  }
 }
