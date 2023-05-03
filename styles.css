@@ -355,3 +355,15 @@
   cursor: pointer;
 }
 
+/* Footer */
+#foot-section {
+  border-top: solid 0.0633rem #dfe1e6;
+  padding: 1rem auto 0 auto;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3.313rem;
+}
