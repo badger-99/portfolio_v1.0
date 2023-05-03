@@ -426,4 +426,43 @@ hr {
     margin: 0rem  8.875rem 0rem 0.25rem;
     padding: 0.688rem 0.563rem;
   }
+
+  #headline {
+    padding: 12rem 0.75rem 0 0.75rem;
+    background-image: url(./images/background.svg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 115%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  #desktop-headline {
+    width: 35.375rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .heading {
+    padding: 0;
+    margin-bottom: 0rem;
+    text-align: left;
+    font-size: 3.5rem;
+  }
+
+  .icon_container {
+    padding-left: 2rem;
+  }
+  
+  .social_icons {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+  }
+  
 }
