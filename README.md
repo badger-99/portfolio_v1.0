@@ -70,7 +70,7 @@ VS-Code
 
 Clone this repository to your desired folder:
 
-https://github.com/badger-99/Hello-world.git
+https://github.com/badger-99/Portfolio
 
 ### Install
 
@@ -101,7 +101,6 @@ You can deploy this project by using VS-code and injecting it to a browser throu
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[incorporating responsiveness into the webpage]**
-- [ ] **[contact forms]**
 - [ ] **[a desktop version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
