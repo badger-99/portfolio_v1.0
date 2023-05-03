@@ -428,11 +428,11 @@ hr {
   }
 
   #headline {
-    padding: 12rem 0.75rem 0 0.75rem;
-    background-image: url(./images/background.svg);
-    background-repeat: no-repeat;
+    padding: 12rem 0.75rem 0 0rem;
+    background-image: url(./images/desktop-hero-background.svg);
     background-position-x: 100%;
-    background-position-y: 115%;
+    background-position-y: 0%;
+    background-size: 40%;
     /* height: 100vh; */
     display: flex;
     flex-direction: row-reverse;
