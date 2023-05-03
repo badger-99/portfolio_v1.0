@@ -133,14 +133,14 @@
   margin-bottom: 1.5rem;
 }
 
-#featured_project > h3 {
+#featured_project_name {
   color: var(--fontColor1);
   font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 2rem;
 }
 
-#featured_project > p {
+#featured_project_title {
   color: var(--fontColor1);
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -472,25 +472,38 @@ hr {
   
   /* Projects */
   .title {
-    margin: 7.5rem 7.375rem 0 7.375rem;
+    margin: 7.5rem 9.594rem 0 9.594rem;
     text-align: center;
     display: flex;
     flex-direction: row;
-    /* padding: 0 7.375rem; */
+    padding: 0;
     align-items: center;
   }
 
   #work_title {
     margin-right: 1.5rem;
-    font-size: 2.5rem;
     color: #091E42;
     white-space: nowrap;
   }
   
   #divider {
-    border-bottom: solid 1px #212121;
-    padding:0;
-    margin: 0;
+    padding-top: 0.5rem;
     width:100%;
+  }
+
+  #featured_project {
+    margin: 7.125rem 7.375rem 1.5rem 7.375rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 0 1.5rem;
+  }
+
+  #feat_img {
+    margin: 0;
+  }
+  
+  #featured_project_right_block {
+    margin-bottom: 6.25rem;
   }
 }
