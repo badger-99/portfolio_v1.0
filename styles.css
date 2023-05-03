@@ -22,6 +22,11 @@
   font-family: "Roboto", "Crete Round", "Poppins", "Inter", sans-serif;
 }
 
+.desktop {
+  position: absolute;
+  visibility: hidden;
+}
+
 #toolbar {
   display: flex;
   position: fixed;
@@ -379,5 +384,12 @@ hr {
 
 /* Desktop Styling */
 @media screen and (min-width: 768px) {
-  
+  .mobile{
+    visibility: hidden;
+    position: absolute;
+  }
+  .desktop {
+    visibility: visible;
+    position: static;    
+  }
 }
