@@ -301,3 +301,11 @@
 }
 
 /* Contact Me */
+#contact {
+  padding: 4.313rem 1.438rem 0 1.438rem;
+  margin-bottom: 4.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
