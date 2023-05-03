@@ -376,3 +376,8 @@ hr {
   border-radius: 0.625rem;
   margin: 0 auto 0.688rem auto;
 }
+
+/* Desktop Styling */
+@media screen and (min-width: 768px) {
+  
+}
