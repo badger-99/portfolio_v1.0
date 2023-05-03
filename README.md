@@ -70,7 +70,7 @@ VS-Code
 
 Clone this repository to your desired folder:
 
-https://github.com/badger-99/Hello-world.git
+https://github.com/badger-99/Portfolio
 
 ### Install
 
