@@ -264,7 +264,6 @@
   color: var(--white);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 8rem 1.438rem 2.346rem 1.438rem;
 }
@@ -274,16 +273,16 @@
   text-align: center;
 }
 
+.skill_title {
+  padding: 0.5rem 0.75rem;
+  font-size: 2rem;
+}
+
 .skill_name {
   padding: 0.75rem 0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.167rem;
-}
-
-.skill_title {
-  padding: 0.5rem 0.75rem;
-  font-size: 2rem;
 }
 
 .about_flex {
@@ -519,6 +518,7 @@ hr {
     gap: 2.313rem 1.5rem;
   }
 
+  /* About Me */
   .about_me {
     background-color: var(--mainColor);
     padding: 0 1.5rem;
@@ -554,6 +554,63 @@ hr {
   }
 
   #separator {
-    margin: 8.688rem 0 0 0;
+    margin: 8.688rem 8.875rem 0 8.875rem;
   }
+
+  /* Abilities */
+
+    #abilities {
+    /* padding: 8rem 1.438rem 2.346rem 1.438rem; */
+    padding: 0;
+    margin: 0;
+    padding-top: 8.625rem;
+  }
+
+  .skill{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill_list {
+    text-align: left;
+  }
+
+  .about_flex {
+    justify-content: flex-start;
+  }
+
+  #frameworks {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    /* margin:0 6.5rem; */
+  }
+
+/* Contact Me */
+#contact {
+  padding: 8.125rem 8.875rem 0 8.438rem;
+  margin-bottom: 6rem;
+  flex-direction: row;
+}
+
+#contact-title {
+  text-align: left;
+  width: 455px;
+  height: 256px;
+}
+
+#contact-form {
+  align-items: left;
+}
+
+#footer{
+  padding: 0;
+  margin: 0;
+}
+
+.icon_container{
+  margin: 1rem 0 0.5rem 0;
+}
+
+#footer-icons {
+  flex-direction: row;
+}
 }
