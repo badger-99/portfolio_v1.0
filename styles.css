@@ -518,11 +518,17 @@ hr {
     gap: 2.313rem 1.5rem;
   }
 
+  .art{
+    padding-top: 11.125rem;
+  }
+
   .healthcare {
+    padding-top: 11.125rem;
     background-image: url(./images/healthcare-card.svg);
   }
 
   .website {
+    padding-top: 13.188rem;
     background-image: url(./images/website-card.svg);
   }
 
