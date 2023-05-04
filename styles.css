@@ -210,6 +210,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card_title {
@@ -524,6 +526,35 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr fr;
     gap: 2.313rem 1.5rem;
+  }
+
+  .healthcare {
+    background-image: url(./images/healthcare-card.svg);
+  }
+
+  .website {
+    background-image: url(./images/website-card.svg);
+  }
+
+  .grid_card:hover {
+    background-image: url(./images/desktop-card-hover.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .grid_card:hover .work{
+    display: none;
+  }
+
+  .grid-project-link {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+  }
+
+  .grid_card:hover .grid-project-link {
+    visibility: visible;
+    position: static;
   }
 
   /* About Me */
