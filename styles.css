@@ -637,13 +637,12 @@ hr {
 
   /* Project Grid */
   #projects_grid {
-    margin: 0 8.875rem 8.125rem 8.875rem;
+    margin: 0 8.938rem 8.125rem 8.938rem;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   /* About Me */
   .about_me {
-    background-color: var(--mainColor);
     padding: 0 1.5rem;
   }
 
