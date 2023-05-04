@@ -25,6 +25,7 @@
 .desktop {
   position: absolute;
   visibility: hidden;
+  left: 0;
 }
 
 #toolbar {
@@ -315,11 +316,9 @@
 /* Contact Me */
 #contact {
   padding: 4.313rem 1.438rem 4.875rem 1.438rem;
-  margin-bottom: ;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: #e5e5e5;
 }
 
 #contact-title {
@@ -353,7 +352,6 @@
 .form-input {
   border-bottom: solid 0.063rem #bbbbbb;
   padding: 0.938rem 1rem;
-  background: #e5e5e5;
 }
 
 #txt-area {
@@ -375,7 +373,6 @@
 #foot-section {
   border-top: solid 0.0633rem #bbbbbb;
   padding: 1rem auto 0 auto;
-  background: #e5e5e5;
 }
 
 #footer {
