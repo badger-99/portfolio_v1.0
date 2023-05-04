@@ -519,7 +519,7 @@ hr {
     gap: 2.313rem 1.5rem;
   }
 
-  .art{
+  .art {
     padding-top: 11.125rem;
   }
 
@@ -575,7 +575,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px 12px 0 0;
+    padding: 0 0.75rem 0 0;
     gap: 8px;
   }
 
@@ -689,7 +689,7 @@ hr {
   /* Abilities */
 
   #languages {
-    padding: 0 3.236rem 1.5rem 0rem;
+    padding: 0 3.236rem 1.5rem 0;
   }
 
   #frameworks {
