@@ -131,6 +131,7 @@
 
 #featured_project {
   margin-top: 5rem;
+  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
   padding: 0 1.5rem;
@@ -570,6 +571,14 @@ hr {
     text-align: left;
   }
 
+  .technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 12px 0 0;
+    gap: 8px;
+  }
+
   .about_flex {
     justify-content: flex-start;
   }
@@ -678,6 +687,11 @@ hr {
   }
 
   /* Abilities */
+
+  #languages {
+    padding: 0 3.236rem 1.5rem 0rem;
+  }
+
   #frameworks {
     margin: 0 9.5rem;
   }
