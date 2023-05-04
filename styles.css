@@ -361,6 +361,7 @@
 #submit-btn {
   align-self: center;
   cursor: pointer;
+  border: none;
 }
 
 /* Footer */
@@ -389,6 +390,7 @@ hr {
   .mobile{
     visibility: hidden;
     position: absolute;
+    left: 0;
   }
   .desktop {
     visibility: visible;
@@ -545,7 +547,7 @@ hr {
   
   #about_text {
     padding-left:8.875rem ;
-    padding-right:45.75rem ;
+    margin-right:45.75rem ;
   }
   
   #resume_link {
@@ -581,14 +583,17 @@ hr {
 
   #frameworks {
     padding: 0 1.5rem 1.5rem 1.5rem;
-    /* margin:0 6.5rem; */
+    margin:0 9.5rem;
   }
 
 /* Contact Me */
 #contact {
-  padding: 8.125rem 8.875rem 0 8.438rem;
-  margin-bottom: 6rem;
+  /* padding: 8.125rem 8.875rem 6rem 8.438rem; */
+  padding: 0;
+  margin: 8.125rem 8.875rem 6rem 8.438rem;
   flex-direction: row;
+  justify-content: flex-start;
+  gap:1.5rem;
 }
 
 #contact-title {
@@ -598,7 +603,11 @@ hr {
 }
 
 #contact-form {
-  align-items: left;
+  width: 100%;
+}
+
+#submit-btn {
+  align-self: flex-start;
 }
 
 #footer{
