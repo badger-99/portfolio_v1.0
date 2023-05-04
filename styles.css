@@ -106,7 +106,7 @@
   padding: 0.625rem 0.625rem;
 }
 
-#my-recent-works{
+#my-recent-works {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
   background: #e5e5e5;
@@ -353,7 +353,7 @@
 }
 
 .form-input {
-  border-bottom: solid 0.063rem #bbbbbb;
+  border-bottom: solid 0.063rem #bbb;
   padding: 0.938rem 1rem;
 }
 
@@ -374,7 +374,7 @@
 
 /* Footer */
 #foot-section {
-  border-top: solid 0.0633rem #bbbbbb;
+  border-top: solid 0.0633rem #bbb;
   padding: 1rem auto 0 auto;
 }
 
@@ -393,19 +393,18 @@ hr {
   margin: 0 auto 0.688rem auto;
 }
 
-
 /*********** Desktop Styling - Small ***********/
-@media screen and (min-width: 768px){
-  .mobile{
+@media screen and (min-width: 768px) {
+  .mobile {
     visibility: hidden;
     position: absolute;
     left: 0;
   }
+
   .desktop {
     visibility: visible;
-    position: static;    
+    position: static;
   }
-
 
   /****** Header ******/
   #toolbar {
@@ -420,7 +419,7 @@ hr {
     left: 8.875rem;
   }
 
-  #desktop-nav{
+  #desktop-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -434,17 +433,17 @@ hr {
     font-weight: 600;
     font-size: 0.938rem;
     margin: 0.5rem 0.5rem 0.5rem 0;
-    padding: 0rem 0.75rem;
-    }
+    padding: 0 0.75rem;
+  }
 
   #nav-to-mail {
-    margin: 0rem  8.875rem 0rem 0.25rem;
+    margin: 0  8.875rem 0 0.25rem;
     padding: 0.25rem 0.563rem;
   }
 
   /****** Hero Page ******/
   #headline {
-    padding: 12rem 0.75rem 0 0rem;
+    padding: 12rem 0.75rem 0 0;
     background-image: url(./images/desktop-hero-background.svg);
     background-position-x: 100%;
     background-position-y: 0%;
@@ -464,15 +463,16 @@ hr {
 
   .heading {
     padding: 0;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
     text-align: left;
     font-size: 3.5rem;
   }
 
   .icon_container {
     padding-left: 2rem;
+    margin: 1rem 0 0.5rem 0;
   }
-  
+
   .social_icons {
     display: flex;
     flex-direction: column;
@@ -481,7 +481,8 @@ hr {
   }
 
   /****** Projects ******/
-/* Featured Project */
+
+  /* Featured Project */
   .title {
     margin: 7.5rem 9.594rem 0 9.594rem;
     text-align: center;
@@ -493,24 +494,24 @@ hr {
 
   #work_title {
     margin-right: 1.5rem;
-    color: #091E42;
+    color: #091e42;
     white-space: nowrap;
   }
 
   #divider {
     padding-top: 0.5rem;
-    width:100%;
+    width: 100%;
   }
 
   #featured_project {
     margin: 7.125rem 4rem 2rem 4rem;
     display: flex;
-    gap: 1.5rem;    
+    gap: 1.5rem;
   }
 
   /* Project Grid */
   #projects_grid {
-    margin: 0 8.auto 8.125rem auto;
+    margin: 8 auto 8.125rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr fr;
@@ -531,7 +532,7 @@ hr {
     background-repeat: no-repeat;
   }
 
-  .grid_card:hover .work{
+  .grid_card:hover .work {
     display: none;
   }
 
@@ -546,7 +547,7 @@ hr {
     position: static;
   }
 
-   /* Abilities */
+  /* Abilities */
 
   #abilities {
     padding: 0;
@@ -554,7 +555,7 @@ hr {
     padding-top: 8.625rem;
   }
 
-  .skill{
+  .skill {
     display: flex;
     flex-direction: row;
   }
@@ -569,7 +570,7 @@ hr {
 
   #frameworks {
     padding: 0 1.5rem 1.5rem 1.5rem;
-    margin:0 2.5rem;
+    margin: 0 2.5rem;
   }
 
   /* Contact Me */
@@ -577,7 +578,7 @@ hr {
     padding: 8.125rem 8.875rem 6rem 8.438rem;
     flex-direction: row;
     justify-content: flex-start;
-    gap:1.5rem;
+    gap: 1.5rem;
   }
 
   #contact-title {
@@ -595,13 +596,9 @@ hr {
   }
 
   /* Footer */
-  #footer{
+  #footer {
     padding: 0;
     margin: 0;
-  }
-
-  .icon_container{
-    margin: 1rem 0 0.5rem 0;
   }
 
   #footer-icons {
@@ -611,16 +608,15 @@ hr {
 
 /*********** Desktop Styling - Large ***********/
 @media screen and (min-width: 1200px) {
-  
-  
   /****** Projects ******/
+
   /* Featured Project */
   #featured_project {
     margin: 7.125rem 7.375rem 1.5rem 7.375rem;
     padding: 0 1.5rem;
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;    
+    gap: 1.5rem;
   }
 
   #feat_img {
@@ -628,7 +624,7 @@ hr {
     width: 100%;
     height: auto;
   }
-  
+
   #featured_project_right_block {
     margin-bottom: 6.25rem;
   }
@@ -644,7 +640,7 @@ hr {
     background-color: var(--mainColor);
     padding: 0 1.5rem;
   }
-  
+
   #info {
     margin: 0;
     padding-top: 8.125rem;
@@ -656,19 +652,19 @@ hr {
   }
 
   #about_title {
-    padding-left:8.875rem ;
-    padding-right:45.75rem ;
+    padding-left: 8.875rem;
+    padding-right: 45.75rem;
     margin: 0;
   }
-  
+
   #about_text {
-    padding-left:8.875rem ;
-    margin-right:45.75rem ;
+    padding-left: 8.875rem;
+    margin-right: 45.75rem;
   }
-  
+
   #resume_link {
-    margin-left:8.875rem ;
-    margin-right:45.75rem ;
+    margin-left: 8.875rem;
+    margin-right: 45.75rem;
   }
 
   #separator {
@@ -677,6 +673,6 @@ hr {
 
   /* Abilities */
   #frameworks {
-    margin:0 9.5rem;
-  }  
+    margin: 0 9.5rem;
+  }
 }
