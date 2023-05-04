@@ -665,6 +665,7 @@ hr {
   #about_text {
     padding-left: 8.875rem;
     margin-right: 45.75rem;
+    line-height: 32px;
   }
 
   #resume_link {
