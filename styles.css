@@ -105,8 +105,14 @@
   padding: 0.625rem 0.625rem;
 }
 
+#my-recent-works{
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background: #e5e5e5;
+}
+
 .title {
-  margin: 7.5rem 1.5rem 0 1.5rem;
+  margin: 0 1.5rem 0 1.5rem;
   text-align: center;
 }
 
@@ -234,7 +240,6 @@
 
 #info {
   padding: 7.5rem 1.5rem 0 1.5rem;
-  margin-top: 7.5rem;
   background-image: url(./images/about_me.svg);
   background-repeat: no-repeat;
   background-position: 100% 97.5%;
@@ -309,11 +314,12 @@
 
 /* Contact Me */
 #contact {
-  padding: 4.313rem 1.438rem 0 1.438rem;
-  margin-bottom: 4.875rem;
+  padding: 4.313rem 1.438rem 4.875rem 1.438rem;
+  margin-bottom: ;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background: #e5e5e5;
 }
 
 #contact-title {
@@ -345,8 +351,9 @@
 }
 
 .form-input {
-  border-bottom: solid 0.063rem #d8d8d7;
+  border-bottom: solid 0.063rem #bbbbbb;
   padding: 0.938rem 1rem;
+  background: #e5e5e5;
 }
 
 #txt-area {
@@ -366,8 +373,9 @@
 
 /* Footer */
 #foot-section {
-  border-top: solid 0.0633rem #dfe1e6;
+  border-top: solid 0.0633rem #bbbbbb;
   padding: 1rem auto 0 auto;
+  background: #e5e5e5;
 }
 
 #footer {
@@ -589,8 +597,9 @@ hr {
 /* Contact Me */
 #contact {
   /* padding: 8.125rem 8.875rem 6rem 8.438rem; */
-  padding: 0;
-  margin: 8.125rem 8.875rem 6rem 8.438rem;
+  /* padding: 4.313rem 1.438rem 4.875rem 1.438rem; */
+  padding: 8.125rem 8.875rem 6rem 8.438rem;
+  /* margin: 8.125rem 8.875rem 6rem 8.438rem; */
   flex-direction: row;
   justify-content: flex-start;
   gap:1.5rem;
