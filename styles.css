@@ -393,8 +393,9 @@ hr {
   margin: 0 auto 0.688rem auto;
 }
 
-/*********** Desktop Styling ***********/
-@media screen and (min-width: 768px) {
+
+/*********** Desktop Styling - Small ***********/
+@media screen and (min-width: 768px){
   .mobile{
     visibility: hidden;
     position: absolute;
@@ -478,9 +479,9 @@ hr {
     width: fit-content;
     align-items: center;
   }
-  
+
   /****** Projects ******/
-  /* Featured Project */
+/* Featured Project */
   .title {
     margin: 7.5rem 9.594rem 0 9.594rem;
     text-align: center;
@@ -495,35 +496,23 @@ hr {
     color: #091E42;
     white-space: nowrap;
   }
-  
+
   #divider {
     padding-top: 0.5rem;
     width:100%;
   }
 
   #featured_project {
-    margin: 7.125rem 7.375rem 1.5rem 7.375rem;
-    padding: 0 1.5rem;
+    margin: 7.125rem 4rem 2rem 4rem;
     display: flex;
-    flex-direction: row;
     gap: 1.5rem;    
-  }
-
-  #feat_img {
-    margin: 0;
-    width: 100%;
-    height: auto;
-  }
-  
-  #featured_project_right_block {
-    margin-bottom: 6.25rem;
   }
 
   /* Project Grid */
   #projects_grid {
-    margin: 0 8.875rem 8.125rem 8.875rem;
+    margin: 0 8.auto 8.125rem auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr fr;
     gap: 2.313rem 1.5rem;
   }
@@ -555,6 +544,103 @@ hr {
   .grid_card:hover .grid-project-link {
     visibility: visible;
     position: static;
+  }
+
+   /* Abilities */
+
+  #abilities {
+    /* padding: 8rem 1.438rem 2.346rem 1.438rem; */
+    padding: 0;
+    margin: 0;
+    padding-top: 8.625rem;
+  }
+
+  .skill{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill_list {
+    text-align: left;
+  }
+
+  .about_flex {
+    justify-content: flex-start;
+  }
+
+  #frameworks {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    margin:0 2.5rem;
+  }
+
+  /* Contact Me */
+  #contact {
+    /* padding: 8.125rem 8.875rem 6rem 8.438rem; */
+    /* padding: 4.313rem 1.438rem 4.875rem 1.438rem; */
+    padding: 8.125rem 8.875rem 6rem 8.438rem;
+    /* margin: 8.125rem 8.875rem 6rem 8.438rem; */
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:1.5rem;
+  }
+
+  #contact-title {
+    text-align: left;
+    width: 455px;
+    height: 256px;
+  }
+
+  #contact-form {
+    width: 100%;
+  }
+
+  #submit-btn {
+    align-self: flex-start;
+  }
+
+  /* Footer */
+  #footer{
+    padding: 0;
+    margin: 0;
+  }
+
+  .icon_container{
+    margin: 1rem 0 0.5rem 0;
+  }
+
+  #footer-icons {
+    flex-direction: row;
+  }
+}
+
+/*********** Desktop Styling - Large ***********/
+@media screen and (min-width: 1200px) {
+  
+  
+  /****** Projects ******/
+  /* Featured Project */
+  #featured_project {
+    margin: 7.125rem 7.375rem 1.5rem 7.375rem;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;    
+  }
+
+  #feat_img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  #featured_project_right_block {
+    margin-bottom: 6.25rem;
+  }
+
+  /* Project Grid */
+  #projects_grid {
+    margin: 0 8.875rem 8.125rem 8.875rem;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   /* About Me */
@@ -597,67 +683,7 @@ hr {
   }
 
   /* Abilities */
-
-    #abilities {
-    /* padding: 8rem 1.438rem 2.346rem 1.438rem; */
-    padding: 0;
-    margin: 0;
-    padding-top: 8.625rem;
-  }
-
-  .skill{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .skill_list {
-    text-align: left;
-  }
-
-  .about_flex {
-    justify-content: flex-start;
-  }
-
   #frameworks {
-    padding: 0 1.5rem 1.5rem 1.5rem;
     margin:0 9.5rem;
-  }
-
-/* Contact Me */
-#contact {
-  /* padding: 8.125rem 8.875rem 6rem 8.438rem; */
-  /* padding: 4.313rem 1.438rem 4.875rem 1.438rem; */
-  padding: 8.125rem 8.875rem 6rem 8.438rem;
-  /* margin: 8.125rem 8.875rem 6rem 8.438rem; */
-  flex-direction: row;
-  justify-content: flex-start;
-  gap:1.5rem;
-}
-
-#contact-title {
-  text-align: left;
-  width: 455px;
-  height: 256px;
-}
-
-#contact-form {
-  width: 100%;
-}
-
-#submit-btn {
-  align-self: flex-start;
-}
-
-#footer{
-  padding: 0;
-  margin: 0;
-}
-
-.icon_container{
-  margin: 1rem 0 0.5rem 0;
-}
-
-#footer-icons {
-  flex-direction: row;
-}
+  }  
 }
