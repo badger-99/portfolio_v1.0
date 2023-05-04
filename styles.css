@@ -209,6 +209,7 @@
   background-image: url(./images/work_card.svg);
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
 .card_title {
