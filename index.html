@@ -19,7 +19,15 @@
     </div>
 
     <nav id="menu">
-      <a href=""><img src="./images/hamburger.svg" alt="hamburger menu"></a>
+      <a href="" class="mobile"><img src="./images/hamburger.svg" alt="hamburger menu"></a>
+      <div class="desktop" id="desktop-nav">
+        <a href="" class="link nav-link">Portfolio</a>
+        <a href="" class="link nav-link">About</a>
+        <a href="" class="link nav-link">Contact</a>
+        <a href="" class="link" id="nav-to-mail">
+          <img src="./images/mail-icon.svg" alt="mail-icon">
+        </a>
+      </div>
     </nav>
   </header>
 
@@ -28,17 +36,19 @@
 
     <!-- Headline Page -->
     <section id="headline">
-      <h1 class="hero heading">
-        Hey There.<br>I'm Alfred.
-      </h1>
-
-      <h3 class="hero subheading">
-        I'm a Software Developer
-      </h3>
-
-      <p class="hero text_content">
-        I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
-      </p>
+      <div id="desktop-headline">
+        <h1 class="hero heading">
+          Hey There.<br>I'm Alfred.
+        </h1>
+  
+        <h3 class="hero subheading">
+          I'm a Software Developer
+        </h3>
+  
+        <p class="hero text_content">
+          I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
+        </p>
+      </div>      
 
       <!-- Social Media Icons -->
       <div class="icon_container">
@@ -73,46 +83,52 @@
     </section>
 
     <!-- Projects -->
-    <section>
+    <section id="my-recent-works">
 
     <!-- Projects Title -->
     <div class="title">
       <h2 id="work_title">
         My Recent Works
       </h2>
+      <div id="divider"></div>
     </div>
     
     <!-- Featured Project Card -->
       <div id="featured_project">
-        <img class="btm_margin" id="feat_img" src="./images/img.svg" alt="image placeholder">
-        <h3 class="btm_margin">
-          Multi-Post Stories
-        </h3>
-        <p class="btm_margin">
-          A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="btm_margin tech_stack">
-          <li class="tech">
-            <a class="link" href="">CSS</a>
-          </li>
-          <li class="tech">
-            <a class="link" href="">HTML</a>
-          </li>
-          <li class="tech">
-            <a class="link" href="">Bootstrap</a>
-          </li>
-          <li class="tech">
-            <a class="link" href="">Ruby</a>
-          </li>
-        </ul>
-        <span class="btm_margin">
-          <a class="link btn" href="">See project</a>
-        </span>
+        <img class="btm_margin mobile" id="feat_img" src="./images/img.svg" alt="image placeholder">
+        <img class="btm_margin desktop" id="feat_img" src="./images/img-desktop.svg" alt="image placeholder">
+        <div id="featured_project_right_block">
+          <h3 class="btm_margin" id="featured_project_name">
+            Multi-Post Stories
+          </h3>
+          <p class="btm_margin" id="featured_project_title">
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+          </p>
+          <ul class="btm_margin tech_stack">
+            <li class="tech">
+              <a class="link" href="">CSS</a>
+            </li>
+            <li class="tech">
+              <a class="link" href="">HTML</a>
+            </li>
+            <li class="tech">
+              <a class="link" href="">Bootstrap</a>
+            </li>
+            <li class="tech">
+              <a class="link" href="">Ruby</a>
+            </li>
+          </ul>
+          <span class="btm_margin">
+            <a class="link btn" href="">See project</a>
+          </span>
+        </div>
+        
       </div>
       
       <!-- Project Card Grid -->
       <div id="projects_grid">
-        <div class="grid_card">
+
+        <div class="grid_card art">
           <div class="work">
             <h3 class="card_title">Profesional Art Printing Data</h3>
             <p class="card_text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
@@ -128,11 +144,13 @@
               </li>
             </ul>
           </div>
-          <a class="link btn" href="">See project</a>
+          <a class="link btn grid-project-link" href="">See project</a>
         </div>
-        <div class="grid_card">
+
+        <div class="grid_card healthcare">
           <div class="work">
-            <h3 class="card_title">Profesional Art Printing Data</h3>
+            <h3 class="card_title mobile">Profesional Art Printing Data</h3>
+            <h3 class="card_title destop">Data Dashboard Healthcare</h3>
             <p class="card_text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
             <ul class="card_list tech_stack">
               <li class="tech card_link">
@@ -146,11 +164,13 @@
               </li>
             </ul>
           </div>
-          <a class="link btn" href="">See project</a>
+          <a class="link btn grid-project-link" href="">See project</a>
         </div>
-        <div class="grid_card">
+
+        <div class="grid_card website">
           <div class="work">
-            <h3 class="card_title">Profesional Art Printing Data</h3>
+            <h3 class="card_title mobile">Profesional Art Printing Data</h3>
+            <h3 class="card_title desktop">Website Portfolio</h3>
             <p class="card_text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
             <ul class="card_list tech_stack">
               <li class="tech card_link">
@@ -164,9 +184,10 @@
               </li>
             </ul>
           </div>
-          <a class="link btn" href="">See project</a>
+          <a class="link btn grid-project-link" href="">See project</a>
         </div>
-        <div class="grid_card">
+
+        <div class="grid_card art">
           <div class="work">
             <h3 class="card_title">Profesional Art Printing Data</h3>
             <p class="card_text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
@@ -182,11 +203,13 @@
               </li>
             </ul>
           </div>
-          <a class="link btn" href="">See project</a>
+          <a class="link btn grid-project-link" href="">See project</a>
         </div>
-        <div class="grid_card">
+
+        <div class="grid_card healthcare">
           <div class="work">
-            <h3 class="card_title">Profesional Art Printing Data</h3>
+            <h3 class="card_title mobile">Profesional Art Printing Data</h3>
+            <h3 class="card_title desktop">Data Dashboard Healthcare</h3>
             <p class="card_text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
             <ul class="card_list tech_stack">
               <li class="tech card_link">
@@ -200,11 +223,13 @@
               </li>
             </ul>
           </div>
-          <a class="link btn" href="">See project</a>
+          <a class="link btn grid-project-link" href="">See project</a>
         </div>
-        <div class="grid_card">
+
+        <div class="grid_card website">
           <div class="work">
-            <h3 class="card_title">Profesional Art Printing Data</h3>
+            <h3 class="card_title mobile">Profesional Art Printing Data</h3>
+            <h3 class="card_title desktop">Website Portfolio</h3>
             <p class="card_text">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
             <ul class="card_list tech_stack">
               <li class="tech card_link">
@@ -218,7 +243,7 @@
               </li>
             </ul>
           </div>
-          <a class="link btn" href="">See project</a>
+          <a class="link btn grid-project-link" href="">See project</a>
         </div>
       </div>
     </section>
@@ -255,7 +280,7 @@
                   Language
                 </h3>                
               </span>
-              <ul class="skill_list">
+              <ul class="skill_list technologies">
                 <li class="skill_name">JavaScript</li>
                 <li class="skill_name">Ruby</li>
                 <li class="skill_name">HTML</li>
@@ -271,7 +296,7 @@
                   Frameworks
                 </h3>
               </span>
-              <ul class="skill_list">
+              <ul class="skill_list technologies">
                 <li class="skill_name">React.js</li>
                 <li class="skill_name">Ruby on Rails</li>
                 <li class="skill_name">RSpec</li>
@@ -287,7 +312,7 @@
                   Skills
                 </h3>
               </span>
-              <ul class="skill_list">
+              <ul class="skill_list technologies">
                 <li class="skill_name">Database Management</li>
                 <li class="skill_name">Version Control</li>
                 <li class="skill_name">CLI</li>
@@ -321,7 +346,7 @@
   <section id="foot-section">
     <footer id="footer">
       <div class="icon_container">
-        <ul class="social_icons">
+        <ul class="social_icons" id="footer-icons">
           <li>
             <a href="">
               <img src="./images/github-footer.svg" alt="github icon">
@@ -351,7 +376,7 @@
       </div>
     </footer>
 
-    <hr>
+    <hr class="mobile">
 
   </section>
   </main>

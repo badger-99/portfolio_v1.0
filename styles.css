@@ -22,6 +22,12 @@
   font-family: "Roboto", "Crete Round", "Poppins", "Inter", sans-serif;
 }
 
+.desktop {
+  position: absolute;
+  visibility: hidden;
+  left: 0;
+}
+
 #toolbar {
   display: flex;
   position: fixed;
@@ -100,10 +106,14 @@
   padding: 0.625rem 0.625rem;
 }
 
+#my-recent-works {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background: #e5e5e5;
+}
+
 .title {
-  margin: 7.5rem 1.5rem 0 1.5rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #212121;
+  margin: 0 1.5rem 0 1.5rem;
   text-align: center;
 }
 
@@ -114,8 +124,14 @@
   color: var(--mainColor);
 }
 
+#divider {
+  border-bottom: solid 1px #212121;
+  padding-top: 1.65rem;
+}
+
 #featured_project {
   margin-top: 5rem;
+  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
   padding: 0 1.5rem;
@@ -125,14 +141,14 @@
   margin-bottom: 1.5rem;
 }
 
-#featured_project > h3 {
+#featured_project_name {
   color: var(--fontColor1);
   font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 2rem;
 }
 
-#featured_project > p {
+#featured_project_title {
   color: var(--fontColor1);
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -194,6 +210,9 @@
   background-image: url(./images/work_card.svg);
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card_title {
@@ -226,7 +245,6 @@
 
 #info {
   padding: 7.5rem 1.5rem 0 1.5rem;
-  margin-top: 7.5rem;
   background-image: url(./images/about_me.svg);
   background-repeat: no-repeat;
   background-position: 100% 97.5%;
@@ -256,7 +274,6 @@
   color: var(--white);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 8rem 1.438rem 2.346rem 1.438rem;
 }
@@ -266,16 +283,16 @@
   text-align: center;
 }
 
+.skill_title {
+  padding: 0.5rem 0.75rem;
+  font-size: 2rem;
+}
+
 .skill_name {
   padding: 0.75rem 0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.167rem;
-}
-
-.skill_title {
-  padding: 0.5rem 0.75rem;
-  font-size: 2rem;
 }
 
 .about_flex {
@@ -302,8 +319,7 @@
 
 /* Contact Me */
 #contact {
-  padding: 4.313rem 1.438rem 0 1.438rem;
-  margin-bottom: 4.875rem;
+  padding: 4.313rem 1.438rem 4.875rem 1.438rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -338,7 +354,7 @@
 }
 
 .form-input {
-  border-bottom: solid 0.063rem #d8d8d7;
+  border-bottom: solid 0.063rem #bbb;
   padding: 0.938rem 1rem;
 }
 
@@ -354,11 +370,12 @@
 #submit-btn {
   align-self: center;
   cursor: pointer;
+  border: none;
 }
 
 /* Footer */
 #foot-section {
-  border-top: solid 0.0633rem #dfe1e6;
+  border-top: solid 0.0633rem #bbb;
   padding: 1rem auto 0 auto;
 }
 
@@ -375,4 +392,307 @@ hr {
   background: #0d151e;
   border-radius: 0.625rem;
   margin: 0 auto 0.688rem auto;
+}
+
+/*********** Desktop Styling - Small ***********/
+@media screen and (min-width: 768px) {
+  .mobile {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+  }
+
+  .desktop {
+    visibility: visible;
+    position: static;
+  }
+
+  /****** Header ******/
+  #toolbar {
+    align-items: center;
+  }
+
+  #logo {
+    font: "Inter", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    position: relative;
+    left: 8.875rem;
+  }
+
+  #desktop-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 0.938rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0 0.75rem;
+  }
+
+  #nav-to-mail {
+    margin: 0  8.875rem 0 0.25rem;
+    padding: 0.25rem 0.563rem;
+  }
+
+  /****** Hero Page ******/
+  #headline {
+    padding: 12rem 0.75rem 0 0;
+    background-image: url(./images/desktop-hero-background.svg);
+    background-position-x: 100%;
+    background-position-y: 0%;
+    background-size: 40%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  #desktop-headline {
+    width: 35.375rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .heading {
+    padding: 0;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 3.5rem;
+  }
+
+  .icon_container {
+    padding-left: 2rem;
+    margin: 1rem 0 0.5rem 0;
+  }
+
+  .social_icons {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+  }
+
+  /****** Projects ******/
+
+  /* Featured Project */
+  .title {
+    margin: 7.5rem 9.594rem 0 9.594rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+  }
+
+  #work_title {
+    margin-right: 1.5rem;
+    color: #091e42;
+    white-space: nowrap;
+  }
+
+  #divider {
+    padding-top: 0.5rem;
+    width: 100%;
+  }
+
+  #featured_project {
+    margin: 7.125rem 4rem 2rem 4rem;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  /* Project Grid */
+  #projects_grid {
+    margin: 8 auto 8.125rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr fr;
+    gap: 2.313rem 1.5rem;
+  }
+
+  .art {
+    padding-top: 11.125rem;
+  }
+
+  .healthcare {
+    padding-top: 11.125rem;
+    background-image: url(./images/healthcare-card.svg);
+  }
+
+  .website {
+    padding-top: 13.188rem;
+    background-image: url(./images/website-card.svg);
+  }
+
+  .grid_card:hover {
+    background-image: url(./images/desktop-card-hover.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .grid_card:hover .work {
+    display: none;
+  }
+
+  .grid-project-link {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+  }
+
+  .grid_card:hover .grid-project-link {
+    visibility: visible;
+    position: static;
+  }
+
+  /* Abilities */
+
+  #abilities {
+    padding: 0;
+    margin: 0;
+    padding-top: 8.625rem;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill_list {
+    text-align: left;
+  }
+
+  .technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0.75rem 0 0;
+    gap: 8px;
+  }
+
+  .about_flex {
+    justify-content: flex-start;
+  }
+
+  #frameworks {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    margin: 0 2.5rem;
+  }
+
+  /* Contact Me */
+  #contact {
+    padding: 8.125rem 8.875rem 6rem 8.438rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+
+  #contact-title {
+    text-align: left;
+    width: 455px;
+    height: 256px;
+  }
+
+  #contact-form {
+    width: 100%;
+  }
+
+  #submit-btn {
+    align-self: flex-start;
+  }
+
+  /* Footer */
+  #footer {
+    padding: 0;
+    margin: 0;
+  }
+
+  #footer-icons {
+    flex-direction: row;
+  }
+}
+
+/*********** Desktop Styling - Large ***********/
+@media screen and (min-width: 1200px) {
+  /****** Projects ******/
+
+  /* Featured Project */
+  #featured_project {
+    margin: 7.125rem 7.375rem 1.5rem 7.375rem;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  #feat_img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #featured_project_right_block {
+    margin-bottom: 6.25rem;
+  }
+
+  /* Project Grid */
+  #projects_grid {
+    margin: 0 8.938rem 8.125rem 8.938rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* About Me */
+  .about_me {
+    padding: 0 1.5rem;
+  }
+
+  #info {
+    margin: 0;
+    padding-top: 8.125rem;
+    background-image: url(./images/about_me_desktop.svg);
+    background-position: 100% 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  #about_title {
+    padding-left: 8.875rem;
+    padding-right: 45.75rem;
+    margin: 0;
+  }
+
+  #about_text {
+    padding-left: 8.875rem;
+    margin-right: 45.75rem;
+    line-height: 32px;
+  }
+
+  #resume_link {
+    margin-left: 8.875rem;
+    margin-right: 45.75rem;
+  }
+
+  #separator {
+    margin: 8.688rem 8.875rem 0 8.875rem;
+  }
+
+  /* Abilities */
+
+  #languages {
+    padding: 0 3.236rem 1.5rem 0;
+  }
+
+  #frameworks {
+    margin: 0 9.5rem;
+  }
 }
