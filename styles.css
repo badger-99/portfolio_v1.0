@@ -458,7 +458,7 @@ hr {
   }
 
   .nav-link {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 0.938rem;
     margin: 0.5rem 0.5rem 0.5rem 0;
@@ -466,7 +466,7 @@ hr {
   }
 
   #nav-to-mail {
-    margin: 0  8.875rem 0 0.25rem;
+    margin: 0 8.875rem 0 0.25rem;
     padding: 0.25rem 0.563rem;
   }
 
@@ -509,6 +509,9 @@ hr {
     align-items: center;
   }
 
+  .social_icons :hover {
+    translate: 1rem 0;
+  }
   /****** Projects ******/
 
   /* Featured Project */
@@ -646,6 +649,10 @@ hr {
 
   #footer-icons {
     flex-direction: row;
+  }
+
+  #footer-icons :hover {
+    translate: 0 -1rem;
   }
 }
 
