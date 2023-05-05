@@ -418,6 +418,34 @@ hr {
     font-weight: 700;
     position: relative;
     left: 8.875rem;
+    animation-name: rotate;
+    animation-duration: 3s;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+
+    20% {
+      transform: rotate(45deg);
+    }
+
+    40% {
+      transform: rotate(90deg);
+    }
+
+    60% {
+      transform: rotate(180deg);
+    }
+
+    80% {
+      transform: rotate(270);
+    }
+
+    100% {
+      transform: rotate(360);
+    }
   }
 
   #desktop-nav {
