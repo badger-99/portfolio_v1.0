@@ -23,7 +23,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-This project is the construction of my Portfolio Website based on a <a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?type=design&node-id=1-1471&t=ncqmgCBuIxcXyT08-0">template</a> provided by Microverse.
+This project is the construction of my Portfolio Website based on a <a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?type=design&node-id=1-1471&t=ncqmgCBuIxcXyT08-0">template</a> provided by Microverse. To learn more about the project, watch <a href="https://www.loom.com/share/73fb519606bd4e5583ecf3c74657d06e">this video</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -108,7 +108,7 @@ You can deploy this project by using VS-code and injecting it to a browser throu
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/badger-99/Hello-world/issues).
+Feel free to check the [issues page](https://github.com/badger-99/Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
