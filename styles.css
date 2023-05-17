@@ -157,9 +157,9 @@
   flex: none;
 }
 
-  #feat_img_desktop {
-    width: 0;
-  }
+#feat_img_desktop {
+  width: 0;
+}
 
 .tech_stack {
   display: flex;
@@ -562,7 +562,7 @@ hr {
     align-items: center;
   }
 
-    #feat_img_desktop {
+  #feat_img_desktop {
     margin: 0;
     width: 100%;
     height: auto;
