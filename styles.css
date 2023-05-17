@@ -412,6 +412,20 @@ hr {
   padding: 0 1.5rem;
 }
 
+#mobile-menu-links{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mobile-nav{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  border-bottom: 0.0625rem solid #6F6C6B;
+  padding: 1rem 0 1rem 1rem;
+}
+
 /*********** Desktop Styling - Small ***********/
 @media screen and (min-width: 768px) {
   .mobile {
