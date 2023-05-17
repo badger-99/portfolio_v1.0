@@ -16,3 +16,25 @@ menuLink.appendChild(about)
 menuLink.appendChild(contact)
 mobileMenu.appendChild(menuLink)
 
+btn.addEventListener('click', function (event) {
+  event.preventDefault()
+
+  if (!mobileContainer.classList.contains('visible')) {
+    img.src = './images/close-menu.svg'
+    document.getElementById('logo').style.visibility = 'hidden'
+
+    mobileContainer.style.display = 'block'
+
+    mobileContainer.appendChild(mobileMenu)
+    let siblingContainer = document.querySelector('#toolbar')
+    siblingContainer.insertAdjacentElement('afterend', mobileContainer)
+    mobileContainer.classList.add('visible')
+  }
+  else {
+    img.src = './images/hamburger.svg'
+    document.getElementById('logo').style.visibility = 'visible'
+    mobileContainer.style.display = 'none'
+    mobileContainer.classList.remove('visible')
+  }
+})
+
