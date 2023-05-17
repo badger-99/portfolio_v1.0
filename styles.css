@@ -25,6 +25,7 @@
 .desktop {
   position: absolute;
   visibility: hidden;
+  top: 0;
   left: 0;
 }
 
@@ -154,6 +155,10 @@
   font-weight: 400;
   font-size: 1rem;
   flex: none;
+}
+
+#feat_img_desktop {
+  width: 0;
 }
 
 .tech_stack {
@@ -394,6 +399,37 @@ hr {
   margin: 0 auto 0.688rem auto;
 }
 
+/*********** Mobile-Menu pop-up ***********/
+#mobile-menu-container {
+  background: #e5e5e5;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  margin-top: 46px;
+}
+
+#mobile-menu {
+  background: #3c3a39;
+  color: #fff5e1;
+  display: block;
+  height: 82.5%;
+  padding: 0 1.5rem;
+}
+
+#mobile-menu-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mobile-nav {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  border-bottom: 0.0625rem solid #6f6c6b;
+  padding: 1rem 0 1rem 1rem;
+}
+
 /*********** Desktop Styling - Small ***********/
 @media screen and (min-width: 768px) {
   .mobile {
@@ -463,6 +499,7 @@ hr {
     font-size: 0.938rem;
     margin: 0.5rem 0.5rem 0.5rem 0;
     padding: 0 0.75rem;
+    border-bottom: none;
   }
 
   #nav-to-mail {
@@ -523,6 +560,12 @@ hr {
     flex-direction: row;
     padding: 0;
     align-items: center;
+  }
+
+  #feat_img_desktop {
+    margin: 0;
+    width: 100%;
+    height: auto;
   }
 
   #work_title {
@@ -668,12 +711,6 @@ hr {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
-  }
-
-  #feat_img {
-    margin: 0;
-    width: 100%;
-    height: auto;
   }
 
   #featured_project_right_block {

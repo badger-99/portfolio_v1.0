@@ -15,16 +15,16 @@
   <!-- Header -->
   <header id="toolbar">
     <div id="logo">
-      <a class='link' href="">Alfred</a>
+      <a class='link' href="#headline">Alfred</a>
     </div>
 
     <nav id="menu">
-      <a href="" class="mobile"><img src="./images/hamburger.svg" alt="hamburger menu"></a>
+      <a href="" id="hamburger" class="mobile"><img src="./images/hamburger.svg" alt="hamburger menu"></a>
       <div class="desktop" id="desktop-nav">
-        <a href="" class="link nav-link">Portfolio</a>
-        <a href="" class="link nav-link">About</a>
-        <a href="" class="link nav-link">Contact</a>
-        <a href="" class="link" id="nav-to-mail">
+        <a href="#my-recent-works" id="nav-link-1" class="link nav-link mobile-nav">Portfolio</a>
+        <a href="#info" id="nav-link-2" class="link nav-link mobile-nav">About</a>
+        <a href="#contact" id="nav-link-3" class="link nav-link mobile-nav">Contact</a>
+        <a href="#contact" class="link" id="nav-to-mail">
           <img src="./images/mail-icon.svg" alt="mail-icon">
         </a>
       </div>
@@ -96,7 +96,7 @@
     <!-- Featured Project Card -->
       <div id="featured_project">
         <img class="btm_margin mobile" id="feat_img" src="./images/img.svg" alt="image placeholder">
-        <img class="btm_margin desktop" id="feat_img" src="./images/img-desktop.svg" alt="image placeholder">
+        <img class="btm_margin desktop" id="feat_img_desktop" src="./images/img-desktop.svg" alt="image placeholder">
         <div id="featured_project_right_block">
           <h3 class="btm_margin" id="featured_project_name">
             Multi-Post Stories
@@ -379,6 +379,7 @@
     <hr class="mobile">
 
   </section>
-  </main>
+  <script src="./index.js"></script>
+  </main>  
 </body>
 </html>
