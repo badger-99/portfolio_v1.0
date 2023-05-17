@@ -396,7 +396,14 @@ hr {
 }
 
 /*********** Mobile-Menu pop-up ***********/
-/* test collab */
+#mobile-menu-container{
+  background: #E5E5E5;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  margin-top: 46px;
+}
+
 /*********** Desktop Styling - Small ***********/
 @media screen and (min-width: 768px) {
   .mobile {
