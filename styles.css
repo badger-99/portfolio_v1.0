@@ -25,6 +25,7 @@
 .desktop {
   position: absolute;
   visibility: hidden;
+  top: 0;
   left: 0;
 }
 
@@ -393,6 +394,8 @@ hr {
   border-radius: 0.625rem;
   margin: 0 auto 0.688rem auto;
 }
+
+/*********** Mobile-Menu pop-up ***********/
 
 /*********** Desktop Styling - Small ***********/
 @media screen and (min-width: 768px) {

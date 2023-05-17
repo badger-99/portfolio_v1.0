@@ -38,3 +38,10 @@ btn.addEventListener('click', function (event) {
   }
 })
 
+menuLink.addEventListener('click', function () {
+  img.src = './images/hamburger.svg'
+  document.getElementById('logo').style.visibility = 'visible'
+  mobileContainer.style.display = 'none'
+  mobileContainer.classList.remove('visible')
+})
+
