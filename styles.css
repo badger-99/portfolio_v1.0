@@ -157,6 +157,10 @@
   flex: none;
 }
 
+  #feat_img_desktop {
+    width: 0;
+  }
+
 .tech_stack {
   display: flex;
   flex-direction: row;
@@ -557,6 +561,12 @@ hr {
     align-items: center;
   }
 
+    #feat_img_desktop {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+
   #work_title {
     margin-right: 1.5rem;
     color: #091e42;
@@ -700,12 +710,6 @@ hr {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
-  }
-
-  #feat_img {
-    margin: 0;
-    width: 100%;
-    height: auto;
   }
 
   #featured_project_right_block {
