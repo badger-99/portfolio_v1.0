@@ -396,33 +396,33 @@ hr {
 }
 
 /*********** Mobile-Menu pop-up ***********/
-#mobile-menu-container{
-  background: #E5E5E5;
+#mobile-menu-container {
+  background: #e5e5e5;
   position: fixed;
   width: 100%;
   height: 100vh;
   margin-top: 46px;
 }
 
-#mobile-menu{
-  background: #3C3A39;
-  color: #FFF5E1;
+#mobile-menu {
+  background: #3c3a39;
+  color: #fff5e1;
   display: block;
   height: 82.5%;
   padding: 0 1.5rem;
 }
 
-#mobile-menu-links{
+#mobile-menu-links {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.mobile-nav{
+.mobile-nav {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  border-bottom: 0.0625rem solid #6F6C6B;
+  border-bottom: 0.0625rem solid #6f6c6b;
   padding: 1rem 0 1rem 1rem;
 }
 
