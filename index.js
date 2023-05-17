@@ -3,18 +3,18 @@
 const btn = document.querySelector('#hamburger');
 const img = document.querySelector('#hamburger img');
 const mobileContainer = document.createElement('div');
-mobileContainer.id = 'mobile-menu-container';
 const mobileMenu = document.createElement('div');
-mobileMenu.id = 'mobile-menu';
 const menuLink = document.createElement('div');
-menuLink.id = 'mobile-menu-links';
-const portfolio = document.getElementById('nav-link-1');
-const about = document.getElementById('nav-link-2');
-const contact = document.getElementById('nav-link-3');
+const portfolio = document.getElementById('nav-link-1').cloneNode(true);
+const about = document.getElementById('nav-link-2').cloneNode(true);
+const contact = document.getElementById('nav-link-3').cloneNode(true);
 menuLink.appendChild(portfolio);
 menuLink.appendChild(about);
 menuLink.appendChild(contact);
 mobileMenu.appendChild(menuLink);
+mobileContainer.id = 'mobile-menu-container';
+mobileMenu.id = 'mobile-menu';
+menuLink.id = 'mobile-menu-links';
 
 btn.addEventListener('click', (event) => {
   event.preventDefault();
