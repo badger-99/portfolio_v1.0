@@ -404,6 +404,14 @@ hr {
   margin-top: 46px;
 }
 
+#mobile-menu{
+  background: #3C3A39;
+  color: #FFF5E1;
+  display: block;
+  height: 82.5%;
+  padding: 0 1.5rem;
+}
+
 /*********** Desktop Styling - Small ***********/
 @media screen and (min-width: 768px) {
   .mobile {
