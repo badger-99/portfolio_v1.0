@@ -95,3 +95,69 @@ const featureProject = document.getElementById('featured_project');
 const spotlight = featureTemplate(feature);
 featureProject.innerHTML = spotlight;
 
+// ************************* Dynamic HTML for card-grid ************************* //
+
+// Project object-array
+const projects = [
+  {
+    title: 'art',
+    name: '<h3 class="card_title">Profesional Art Printing Data</h3>',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    image: 'img/feature.png',
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    live: 'https://badger-99.github.io/Portfolio/',
+    source: 'https://github.com/badger-99/Portfolio',
+  },
+  {
+    title: 'healthcare',
+    name: '<h3 class="card_title mobile">Profesional Art Printing Data</h3>\n<h3 h3 class= "card_title destop" > Data Dashboard Healthcare</h3>',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    image: 'img/feature.png',
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    live: 'https://badger-99.github.io/Portfolio/',
+    source: 'https://github.com/badger-99/Portfolio',
+  },
+  {
+    title: 'website',
+    name: '<h3 class="card_title mobile">Profesional Art Printing Data</h3>\n<h3 class="card_title desktop">Website Portfolio</h3>',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    image: 'img/feature.png',
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    live: 'https://badger-99.github.io/Portfolio/',
+    source: 'https://github.com/badger-99/Portfolio',
+  },
+  {
+    title: 'art',
+    name: '<h3 class="card_title">Profesional Art Printing Data</h3>',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    image: 'img/feature.png',
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    live: 'https://badger-99.github.io/Portfolio/',
+    source: 'https://github.com/badger-99/Portfolio',
+  },
+  {
+    title: 'healthcare',
+    name: '<h3 class="card_title mobile">Profesional Art Printing Data</h3>\n<h3 h3 class= "card_title destop" > Data Dashboard Healthcare</h3>',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    image: 'img/feature.png',
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    live: 'https://badger-99.github.io/Portfolio/',
+    source: 'https://github.com/badger-99/Portfolio',
+  },
+  {
+    title: 'website',
+    name: '<h3 class="card_title mobile">Profesional Art Printing Data</h3>\n<h3 class="card_title desktop">Website Portfolio</h3>',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    image: 'img/feature.png',
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    live: 'https://badger-99.github.io/Portfolio/',
+    source: 'https://github.com/badger-99/Portfolio',
+  },
+];
+
