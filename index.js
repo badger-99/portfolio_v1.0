@@ -182,3 +182,8 @@ const card = (projects) => `
           <a class="link btn grid-project-link more" href="">See project</a>
         </div>`;
 
+// Gridcard dynamic HTML injection
+const projectGrid = document.getElementById('projects_grid');
+const gridCard = projects.map((project) => card(project)).join('');
+projectGrid.innerHTML = gridCard;
+
