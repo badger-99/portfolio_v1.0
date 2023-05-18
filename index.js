@@ -254,3 +254,8 @@ const popWindow = (project) => `
       </div>
     `;
 
+// create pop-up container
+const main = document.createElement('div');
+main.id = 'popup-container';
+const popUp = document.createElement('div');
+popUp.id = 'popup';
