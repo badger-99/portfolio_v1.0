@@ -259,3 +259,25 @@ const main = document.createElement('div');
 main.id = 'popup-container';
 const popUp = document.createElement('div');
 popUp.id = 'popup';
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>> Featured Project Pop-up <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+const featureLink = featureProject.querySelector('.see-more');
+featureLink.addEventListener('click', (event) => {
+  event.preventDefault();
+  const featureHTML = popWindow(feature);
+  popUp.innerHTML = featureHTML;
+  main.appendChild(popUp);
+  main.style.display = 'block';
+  main.style.visibility = 'visible';
+  document.getElementById('body').appendChild(main);
+
+  // Closing popup
+  const closePopUps = document.getElementsByClassName('close-popup');
+  Array.from(closePopUps).forEach((closePopUp) => {
+    closePopUp.addEventListener('click', (event) => {
+      event.preventDefault();
+      main.style.display = 'none';
+      main.style.visibility = 'hidden';
+    });
+  });
+});
