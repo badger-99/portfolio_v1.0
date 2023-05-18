@@ -90,3 +90,8 @@ const featureTemplate = (featureCard) => `
         </div>
   `;
 
+// Featured project dynamic HTML injection
+const featureProject = document.getElementById('featured_project');
+const spotlight = featureTemplate(feature);
+featureProject.innerHTML = spotlight;
+
