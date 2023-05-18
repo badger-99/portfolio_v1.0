@@ -281,3 +281,35 @@ featureLink.addEventListener('click', (event) => {
     });
   });
 });
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Card-Grid Pop-up <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// Select all the project cards
+const projectCards = document.getElementsByClassName('grid_card');
+
+// Make an array of the project cards and iterate over each card ehile keeping track of the index
+Array.from(projectCards).forEach((specificCard, index) => {
+  // select the See Project link on each card and attach an event listener to open the pop-up
+  const seeMore = specificCard.querySelector('.more');
+  seeMore.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    // select the corresponding project object from the object array, and use it to make the popup
+    const project = projects[index];
+    const projectHTML = popWindow(project);
+    popUp.innerHTML = projectHTML;
+    main.appendChild(popUp);
+    main.style.display = 'block';
+    main.style.visibility = 'visible';
+    document.getElementById('body').appendChild(main);
+
+    // Select the close menu link(s) and add an event listener to close the popup
+    const closePopUps = document.getElementsByClassName('close-popup');
+    Array.from(closePopUps).forEach((closePopUp) => {
+      closePopUp.addEventListener('click', (event) => {
+        event.preventDefault();
+        main.style.display = 'none';
+        main.style.visibility = 'hidden';
+      });
+    });
+  });
+});
