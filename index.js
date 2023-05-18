@@ -161,3 +161,24 @@ const projects = [
   },
 ];
 
+// Gridcard template
+const card = (projects) => `
+        <div class="grid_card ${projects.title}">
+          <div class="work">
+            ${projects.name}
+            <p class="card_text">${projects.description}</p>
+            <ul class="card_list tech_stack">
+              ${projects.techStack
+    .map(
+      (tech) => `
+                <li class="tech card_link">
+                  <a class="link" href="">${tech}</a>
+                </li>
+              `,
+    )
+    .join('')}
+            </ul>
+          </div>
+          <a class="link btn grid-project-link more" href="">See project</a>
+        </div>`;
+
