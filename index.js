@@ -187,3 +187,70 @@ const projectGrid = document.getElementById('projects_grid');
 const gridCard = projects.map((project) => card(project)).join('');
 projectGrid.innerHTML = gridCard;
 
+// *****************Pop-Up Window***********************
+
+// Pop-Up Window template
+const popWindow = (project) => `
+      <div class='pop-head'>
+        <h3 class='mobile'>Multi Post Stories</h3>
+        <h3 class='desktop'>Keeping track of hundreds  of components website</h3>
+        <a class='close-popup' href="">
+          <img src="./images/close-menu.svg" alt="close menu">
+        </a>
+      </div>
+
+      <div class=popTech >
+        <ul class="tech_stack">
+              <li class="pop-tech">
+                <a class="link" href="">HTML</a>
+              </li>
+              <li class="pop-tech">
+                <a class="link" href="">Bootstrap</a>
+              </li>
+              <li class="pop-tech">
+                <a class="link" href="">Ruby on Rails</a>
+              </li>
+            </ul>
+      </div>
+    </div>
+
+    <div class='big-flex'>
+      <div class='popup-pic'>
+        <a class='mobile-max' href="">
+          <img src="./images/mobile-pop.png" alt="popup image">
+        </a>
+        <a class='desktop-only' href="">
+          <img src="./images/desktop-pop.png" alt="popup image">
+        </a>
+      </div>
+
+      <div class='left-card'>
+        <div class='popup-text'>
+          <p class='hidden'>
+          ${project.description}
+          </p>
+          <p class='mobile'>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+          </p>
+          <p class='desktop'>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+          </p>
+          <br class='desktop'>
+          <p class='desktop'>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.
+          </p>
+        </div>
+
+        <div class='popup-links'>
+          <span class="pop-btn">
+                <a class="link btn live" href="https://badger-99.github.io/Portfolio/">See live <img class='pop-icon' src="./images/live-server.svg" alt="icon">
+                </a>              
+          </span>
+          <span class="pop-btn">
+                <a class="link btn source" href="https://github.com/badger-99/Portfolio">See source <img class='pop-icon' src="./images/git-pop.svg" alt="icon">
+                </a>              
+          </span>
+        </div>
+      </div>
+    `;
+
