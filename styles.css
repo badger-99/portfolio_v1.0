@@ -438,10 +438,12 @@ hr {
   top: 0;
   left: 0;
 }
+
 .mobile-max {
   visibility: visible;
   position: static;
 }
+
 #popup-container {
   position: fixed;
   height: 100vh;
@@ -450,10 +452,10 @@ hr {
   padding: 3.75rem 1rem 2.438rem 1rem;
   background: rgb(0, 0, 0, 80%);
 }
+
 #popup {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   gap: 1.5rem;
   background: #dfe1e6;
@@ -464,7 +466,7 @@ hr {
 .pop-head {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 2.625rem;
+  padding-bottom: 2rem;
 }
 
 .pop-head > h3 {
@@ -799,44 +801,46 @@ hr {
   #footer-icons :hover {
     translate: 0 -1rem;
   }
+
+  /*********** Details Pop-up Desktop-Small ***********/
+
+  #popup {
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .popTech {
+    margin-bottom: 2.5rem;
+  }
+
+  .pop-head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.75rem;
+    width: 100%;
+  }
+
+  .pop-head > h3 {
+    font: "Crete Round", sans-serif;
+    font-weight: 400;
+  }
+
+  .big-flex {
+    flex-direction: row;
+    gap: 1.563rem;
+    align-items: start;
+  }
+
+  .popup-text > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    color: #344563;
+  }
 }
 
-/*********** Details Pop-up Desktop-Small ***********/
 
-#popup {
-  align-items: flex-start;
-  gap: 0;
-}
-
-.popTech {
-  margin-bottom: 2.5rem;
-}
-
-.pop-head {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 0.75rem;
-  width: 100%;
-}
-
-.pop-head > h3 {
-  font: "Crete Round", sans-serif;
-  font-weight: 400;
-}
-
-.big-flex {
-  flex-direction: row;
-  gap: 1.563rem;
-  align-items: start;
-}
-
-.popup-text > p {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.875rem;
-  color: #344563;
-}
 
 /*********** Desktop Styling - Large ***********/
 @media screen and (min-width: 1200px) {
@@ -927,7 +931,7 @@ hr {
   .popup-text {
     margin-bottom: 4.6rem;
   }
-  
+
   .popup-links {
     justify-content: flex-start;
     gap: 0.75rem;
