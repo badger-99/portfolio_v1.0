@@ -461,6 +461,7 @@ hr {
   background: #dfe1e6;
   height: 100%;
   padding: 1rem;
+  overflow-y: auto;
 }
 
 .pop-head {
