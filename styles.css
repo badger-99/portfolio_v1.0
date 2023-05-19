@@ -430,6 +430,8 @@ hr {
   padding: 1rem 0 1rem 1rem;
 }
 
+/*********** Details Pop-up Mobile ***********/
+
 /*********** Desktop Styling - Small ***********/
 @media screen and (min-width: 768px) {
   .mobile {
@@ -700,6 +702,9 @@ hr {
   }
 }
 
+/*********** Details Pop-up Desktop-Small ***********/
+
+
 /*********** Desktop Styling - Large ***********/
 @media screen and (min-width: 1200px) {
   /****** Projects ******/
@@ -768,4 +773,6 @@ hr {
   #frameworks {
     margin: 0 9.5rem;
   }
+
+  /*********** Details Pop-up Mobile ***********/
 }
