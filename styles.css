@@ -353,6 +353,14 @@
   color: #979493;
 }
 
+small {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #db4949;
+  align-self: flex-start;
+}
+
 .form-elm {
   width: 100%;
   border: none;
