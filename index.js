@@ -313,3 +313,26 @@ Array.from(projectCards).forEach((specificCard, index) => {
     });
   });
 });
+
+// ****************************** Email Validation ****************************** //
+
+// Regex matches an email address with only lower-case letters and underscores,
+// and allows for ornly one period enywhere between the first and last character
+// of the personal pard of the address;
+
+const regex = /^[a-z0-9_]+(\.[a-z0-9_]+)?@+[a-z0-9_]+(\.[a-z0-9_]+)*\.[a-z0-9_]+$/;
+const form = document.getElementById('contact-form');
+const email = form.querySelector('input[type="email"]');
+const msg = form.querySelector('small');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const emailAddress = email.value.trim();
+
+  if (!regex.test(emailAddress)) {
+    msg.innerText = 'Please enter a correct email address format';
+  } else {
+    form.submit();
+  }
+});
