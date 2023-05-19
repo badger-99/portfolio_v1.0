@@ -704,41 +704,6 @@ hr {
     background-image: url(./images/healthcare-card.svg);
   }
 
-  #popup {
-    align-items: flex-start;
-    gap: 0;
-  }
-
-  .popTech {
-    margin-bottom: 2.5rem;
-  }
-
-  .pop-head {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 0.75rem;
-    width: 100%;
-  }
-
-  .pop-head > h3 {
-    font: "Crete Round", sans-serif;
-    font-weight: 400;
-  }
-
-  .big-flex {
-    flex-direction: row;
-    gap: 1.563rem;
-    align-items: start;
-  }
-  
-  .popup-text > p {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.875rem;
-    color: #344563;
-  }
-
   .website {
     padding-top: 13.188rem;
     background-image: url(./images/website-card.svg);
@@ -838,6 +803,40 @@ hr {
 
 /*********** Details Pop-up Desktop-Small ***********/
 
+#popup {
+  align-items: flex-start;
+  gap: 0;
+}
+
+.popTech {
+  margin-bottom: 2.5rem;
+}
+
+.pop-head {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.75rem;
+  width: 100%;
+}
+
+.pop-head > h3 {
+  font: "Crete Round", sans-serif;
+  font-weight: 400;
+}
+
+.big-flex {
+  flex-direction: row;
+  gap: 1.563rem;
+  align-items: start;
+}
+
+.popup-text > p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  color: #344563;
+}
 
 /*********** Desktop Styling - Large ***********/
 @media screen and (min-width: 1200px) {
@@ -909,4 +908,28 @@ hr {
   }
 
   /*********** Details Pop-up Mobile ***********/
+  .desktop-only {
+    visibility: visible;
+    position: static;
+  }
+
+  .mobile-max {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+  }
+
+  #popup-container {
+    padding: 7rem 8.875rem 5rem 8.875rem;
+  }
+
+  .popup-text {
+    margin-bottom: 4.6rem;
+  }
+  
+  .popup-links {
+    justify-content: flex-start;
+    gap: 0.75rem;
+  }
 }
