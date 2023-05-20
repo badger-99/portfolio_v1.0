@@ -322,8 +322,10 @@ Array.from(projectCards).forEach((specificCard, index) => {
 
 const regex = /^[a-z0-9_]+(\.[a-z0-9_]+)?@+[a-z0-9_]+(\.[a-z0-9_]+)*\.[a-z0-9_]+$/;
 const form = document.getElementById('contact-form');
-const email = form.querySelector('input[type="email"]');
+const fullName = form.querySelector('#name');
+const email = form.querySelector('#email');
 const msg = form.querySelector('small');
+const message = form.querySelector('#txt-area');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -336,3 +338,28 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// ************************* Local Storage Functionality ************************* //
+const formData = { name: '', email: '', message: '' };
+
+function record(formInput, destination) {
+  formData[destination] = formInput.value;
+}
+
+const names = 'name';
+const emailAddress = 'email';
+const fullMessage = 'message';
+
+fullName.addEventListener('keyup', record(fullName, names));
+email.addEventListener('keyup', record(email, emailAddress));
+message.addEventListener('keyup', record(message, fullMessage));
+
+const dataString = JSON.stringify(formData);
+localStorage.setItem('formData', dataString);
+
+const formInfoString = localStorage.getItem('formData');
+const formInfo = JSON.parse(formInfoString);
+
+fullName.value = formInfo.name;
+email.value = formInfo.email;
+message.value = formInfo.message;
