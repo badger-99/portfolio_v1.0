@@ -336,3 +336,14 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// ****************************** Local Stroage ****************************** //
+const fullName = form.querySelector('#name')
+const message = form.querySelector('#txt-area');
+const formData = { names: '', emailAddress: '', fullMessage: '' };
+function record(formInput, destination) {
+  formData[destination] = formInput.value
+}
+fullName.addEventListener('keyup', record(fullName, names))
+email.addEventListener('keyup', record(email, emailAddress));
+message.addEventListener('keyup', record(message, fullMessage));
