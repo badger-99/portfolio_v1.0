@@ -61,11 +61,11 @@ const feature = {
 // Featured project template
 const featureTemplate = (featureCard) => `
   <img class="btm_margin mobile" id="feat_img" src="${
-    featureCard.image1
-  }" alt="image placeholder">
+  featureCard.image1
+}" alt="image placeholder">
         <img class="btm_margin desktop" id="feat_img_desktop" src="${
-          featureCard.image2
-        }" alt="image placeholder">
+  featureCard.image2
+}" alt="image placeholder">
         <div id="featured_project_right_block">
           <h3 class="btm_margin" id="featured_project_name">
             ${featureCard.name}
@@ -75,14 +75,14 @@ const featureTemplate = (featureCard) => `
           </p>
           <ul class="btm_margin tech_stack">
             ${featureCard.techStack
-              .map(
-                (tech) => `
+    .map(
+      (tech) => `
                 <li class="tech">
                   <a class="link" href="">${tech}</a>
                 </li>
-              `
-              )
-              .join('')}
+              `,
+    )
+    .join('')}
           </ul>
           <span class="btm_margin">
             <a class="link btn see-more" href="https://badger-99.github.io/Book-List-ES6/" target="_blank">See project</a>
