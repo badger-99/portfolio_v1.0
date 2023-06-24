@@ -51,21 +51,21 @@ const feature = {
   name: 'Multi-Post Stories',
   description:
     "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-  image1: './images/img.svg',
-  image2: './images/img-desktop.svg',
-  techStack: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-  live: 'https://badger-99.github.io/Portfolio/',
-  source: 'https://github.com/badger-99/Portfolio',
+  image1: './images/bookList-capture.jpg',
+  image2: './images/bookList-capture.PNG',
+  techStack: ['CSS', 'HTML'],
+  live: 'https://badger-99.github.io/Book-List-ES6/',
+  source: 'https://github.com/badger-99/Book-List-ES6',
 };
 
 // Featured project template
 const featureTemplate = (featureCard) => `
   <img class="btm_margin mobile" id="feat_img" src="${
-  featureCard.image1
-}" alt="image placeholder">
+    featureCard.image1
+  }" alt="image placeholder">
         <img class="btm_margin desktop" id="feat_img_desktop" src="${
-  featureCard.image2
-}" alt="image placeholder">
+          featureCard.image2
+        }" alt="image placeholder">
         <div id="featured_project_right_block">
           <h3 class="btm_margin" id="featured_project_name">
             ${featureCard.name}
@@ -75,17 +75,17 @@ const featureTemplate = (featureCard) => `
           </p>
           <ul class="btm_margin tech_stack">
             ${featureCard.techStack
-    .map(
-      (tech) => `
+              .map(
+                (tech) => `
                 <li class="tech">
                   <a class="link" href="">${tech}</a>
                 </li>
-              `,
-    )
-    .join('')}
+              `
+              )
+              .join('')}
           </ul>
           <span class="btm_margin">
-            <a class="link btn see-more" href="">See project</a>
+            <a class="link btn see-more" href="https://badger-99.github.io/Book-List-ES6/" target="_blank">See project</a>
           </span>
         </div>
   `;
@@ -217,10 +217,10 @@ const popWindow = (project) => `
     <div class='big-flex'>
       <div class='popup-pic'>
         <a class='mobile-max' href="">
-          <img src="./images/mobile-pop.png" alt="popup image">
+          <img src="./images/bookList-capture.jpg" alt="popup image">
         </a>
         <a class='desktop-only' href="">
-          <img src="./images/desktop-pop.png" alt="popup image">
+          <img src="./images/bookList-capture.jpg" alt="popup image">
         </a>
       </div>
 
@@ -230,24 +230,20 @@ const popWindow = (project) => `
           ${project.description}
           </p>
           <p class='mobile'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+            Book-List is a single-page web application that allows the user to maintain a list of books by their title and author name. It stores the list in the browser's local storage, making it possible for the data to persist beyond even a system reboot.
           </p>
           <p class='desktop'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
-          </p>
-          <br class='desktop'>
-          <p class='desktop'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.
+            Book-List is a single-page web application that allows the user to maintain a list of books by their title and author name. It stores the list in the browser's local storage, making it possible for the data to persist beyond even a system reboot.
           </p>
         </div>
 
         <div class='popup-links'>
           <span class="pop-btn">
-                <a class="link btn live" href="https://badger-99.github.io/Portfolio/">See live <img class='pop-icon' src="./images/live-server.svg" alt="icon">
+                <a class="link btn live" href="https://badger-99.github.io/Book-List-ES6/" target="_blank">See live <img class='pop-icon' src="./images/live-server.svg" alt="icon">
                 </a>              
           </span>
           <span class="pop-btn">
-                <a class="link btn source" href="https://github.com/badger-99/Portfolio">See source <img class='pop-icon' src="./images/git-pop.svg" alt="icon">
+                <a class="link btn source" href="https://github.com/badger-99/Book-List-ES6" target="_blank">See source <img class='pop-icon' src="./images/git-pop.svg" alt="icon">
                 </a>              
           </span>
         </div>
