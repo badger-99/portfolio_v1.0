@@ -45,7 +45,7 @@ This project is the construction of my Portfolio Website based on a <a href="htt
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--  https://badger-99.github.io/Portfolio/
+-  https://badger-99.github.io/portfolio_v1.0/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
